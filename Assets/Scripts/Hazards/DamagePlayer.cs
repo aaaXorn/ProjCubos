@@ -16,6 +16,14 @@ public class DamagePlayer : MonoBehaviour
         
     }
 	
+	void OnCollisionEnter(Collision other)
+	{
+		if(other.gameObject.CompareTag("Player"))
+		{
+			CauseDamage();
+		}
+	}
+	
 	void CauseDamage()
 	{
 		
