@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1106,7 +1106,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.29035375, y: 0.41600695, z: -0.14211103, w: 0.8499632}
+  m_LocalRotation: {x: 0.2903537, y: 0.41600698, z: -0.14211106, w: 0.8499632}
   m_LocalPosition: {x: 5.750745, y: 3.16, z: 4.4674816}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1156,11 +1156,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224240888}
-  - component: {fileID: 1224240890}
   - component: {fileID: 1224240889}
+  - component: {fileID: 1224240890}
+  - component: {fileID: 1224240891}
   m_Layer: 0
   m_Name: Jogador_terceira_pessoa
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1192,11 +1193,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da234191490d5024f9982d6cc76617db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1224240890}
-  speed: 6
+  controller: {fileID: 0}
+  speed: 0.1
   turnSmoothTime: 0.1
---- !u!143 &1224240890
-CharacterController:
+--- !u!136 &1224240890
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1205,14 +1206,26 @@ CharacterController:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+  m_Radius: 0.5425348
+  m_Height: 2.5283365
+  m_Direction: 1
+  m_Center: {x: -0.02108097, y: -0.07561612, z: 0}
+--- !u!54 &1224240891
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224240887}
   serializedVersion: 2
-  m_Height: 2.5
-  m_Radius: 0.55
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1246501319
 GameObject:
   m_ObjectHideFlags: 3
@@ -1582,7 +1595,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625257351}
-  m_LocalRotation: {x: 0.27488634, y: 0.41851664, z: -0.1345407, w: 0.85509074}
+  m_LocalRotation: {x: 0.27488637, y: 0.4185166, z: -0.13454069, w: 0.85509074}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
