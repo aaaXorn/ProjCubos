@@ -48,6 +48,14 @@ public class Menu : MonoBehaviour
 			audioM.SetFloat("Volume", Mathf.Log10(volume) * 20);
 		}
 	
+		//define a qualidade
+		public void SetQuality(int quality)
+		{
+			//muda a qualidade pro valor selecionado
+			//0 very low, 1 low, 2 medium, 3 high, 4 very high, 5 ultra
+			QualitySettings.SetQualityLevel(quality);
+		}
+	
 	#endregion
 	
 	public void Exit()
