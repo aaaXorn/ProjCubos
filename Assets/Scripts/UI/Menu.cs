@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+	[SerializeField] SceneTransition ST;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +15,7 @@ public class Menu : MonoBehaviour
 
     public void NewGame()
 	{
-		//transição
+		ST.Fade(false, "MainMenu");
 		//primeiro nível
 	}
 	
