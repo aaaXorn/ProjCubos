@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TrdPCam : MonoBehaviour
 {
+	[SerializeField] PauseMenu PM;//script de pause, usado para ver se o jogo está pausado
+	
 	//sensividade da camera, quanto maior for, mais ela se move por input
     [SerializeField] Vector2 cameraSensitivity = Vector2.one; 
 	
@@ -24,9 +26,12 @@ public class TrdPCam : MonoBehaviour
  
     void Update()
     {
-		//funções de rotação e zoom
-        Rotate();
-        Zoom();
+		if(!PM.paused)
+		{
+			//funções de rotação e zoom
+			Rotate();
+			Zoom();
+		}
     }
  
 	//rotaciona a camera com o input do mouse

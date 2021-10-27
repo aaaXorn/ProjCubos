@@ -6,29 +6,39 @@ public class SolidFallObj : MonoBehaviour
 {
 	Rigidbody rigid;
 	
+	//timer e cor (transparência)
 	[SerializeField] float timer, color;
+	//dano que o objeto da
+	[SerializeField] float damage = 2;
 	
 	void Start()
 	{
 		rigid = GetComponent<Rigidbody>();
-		rigid.constraints = RigidbodyConstraints.FreezeRotation;
+		//impede o objeto de rotacionar e ser empurrado pro X ou Z
+		rigid.constraints = RigidbodyConstraints.FreezeRotation | 
+							RigidbodyConstraints.FreezePositionX | 
+							RigidbodyConstraints.FreezePositionZ;
 	}
 	
     void OnCollisionEnter(Collision other)
 	{
+		//se estiver caindo
 		if(!rigid.isKinematic)
 		{
+			//se colidir com o chão
 			if(other.gameObject.layer == LayerMask.NameToLayer("Ground"))
 			{
-				rigid.constraints = RigidbodyConstraints.FreezePosition | 
-									RigidbodyConstraints.FreezeRotation;
-				
+				//começa a desaparecer
 				StartCoroutine("MeshFade");
+				//impede o player de tomar dano do objeto enquanto ele fica no chão
+				rigid.isKinematic = true;
 			}
 			
+			//se colidir com o player
 			if(other.gameObject.CompareTag("Player"))
 			{
-				
+				//causa damage de dano
+				other.gameObject.GetComponent<PlayerHealth>().ChangeHP(damage);
 			}
 		}
 	}

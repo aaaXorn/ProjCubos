@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-	public bool paused = false;
+	public bool paused = false;//se o jogo está pausado
+	[SerializeField] GameObject PauseObj;//tela de menu do pause;
+	
+	[SerializeField] SceneTransition ST;//script de transição de cena
+	[SerializeField] PlayerHealth PH;
 	
 	[SerializeField]
 	float unpausedTimeScale = 1;//passagem do tempo fora do pause
@@ -20,25 +25,55 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetButtonDown("Pause") && !PH.dead)
+		{
+			PauseInput();
+		}
     }
 	
 	//pausa/despausa o jogo
 	void PauseInput()
 	{
-		paused = !paused;
-		Cursor.visible = !Cursor.visible;
-		//pausemenu obj
+		paused = !paused;//define se pausa ou despausa
+		PauseObj.SetActive(!PauseObj.activeSelf);//abre/fecha o menu
 		
 		if(paused)
 		{
 			//para o tempo
 			Time.timeScale = 0;
+			Cursor.visible = true;//faz o cursor aparecer
 		}
 		else
 		{
 			//volta o tempo ao normal
 			Time.timeScale = unpausedTimeScale;
+			Cursor.visible = false;//faz o cursor desaparecer
 		}
 	}
+	
+	//botões
+	#region buttons
+	
+	//volta pro jogo, efetivamente igual a apertar "Pause" de novo
+	public void Resume()
+	{
+		paused = false;
+		PauseObj.SetActive(false);
+		Cursor.visible = false;
+		Time.timeScale = unpausedTimeScale;
+	}
+	
+	public void Restart()
+	{
+		//reinicia a scene atual
+		ST.Fade(false, SceneManager.GetActiveScene().name);
+	}
+	
+	public void Title()
+	{
+		//vai pro main menu
+		ST.Fade(false, "MainMenu");
+	}
+	
+	#endregion
 }

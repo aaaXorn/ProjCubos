@@ -38,6 +38,8 @@ public class ControlePlayer : MonoBehaviour
 	bool grounded;//se o player está no chão
 	bool jumpStart;//se o player começou a pular
 	
+	[SerializeField] PlayerHealth PH;
+	
 	//setta variáveis
     void Start()
     {
@@ -73,28 +75,31 @@ public class ControlePlayer : MonoBehaviour
 	//movimentação
 	void FixedUpdate()
 	{
-		//rotaciona o player de acordo com a camera
-		transform.rotation = Quaternion.Euler(transform.rotation.x, 
-											  CamParent.rotation.eulerAngles.y - 90, 
-											  transform.rotation.z);
-		
-		//move o player
-		rigid.MovePosition(transform.position + Time.deltaTime * currSpd
-						   * transform.TransformDirection(xInput, 0, zInput));
-		
-		//se o player está no chão
-		grounded = (distFromGround <= distToJump);//true se distFromGround <= distToJump
-		
-		//se o player pode pular
-		if(jumping && jumpStart && (grounded || (maxJumps > currentJumps)))
+		if(!PH.dead)//se o jogador não está morto
 		{
-			//inicia o pulo
-			StartCoroutine(ApplyJump());
-		}
-		//se o player está no chão
-		if(grounded)
-		{
-			currentJumps = 0;//reseta os pulos feitos
+			//rotaciona o player de acordo com a camera
+			transform.rotation = Quaternion.Euler(transform.rotation.x, 
+												  CamParent.rotation.eulerAngles.y - 90, 
+												  transform.rotation.z);
+			
+			//move o player
+			rigid.MovePosition(transform.position + Time.deltaTime * currSpd
+							   * transform.TransformDirection(xInput, 0, zInput));
+			
+			//se o player está no chão
+			grounded = (distFromGround <= distToJump);//true se distFromGround <= distToJump
+			
+			//se o player pode pular
+			if(jumping && jumpStart && (grounded || (maxJumps > currentJumps)))
+			{
+				//inicia o pulo
+				StartCoroutine(ApplyJump());
+			}
+			//se o player está no chão
+			if(grounded)
+			{
+				currentJumps = 0;//reseta os pulos feitos
+			}
 		}
 	}
 	
