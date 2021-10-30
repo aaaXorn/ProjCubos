@@ -24,7 +24,7 @@ public class SceneTransition : MonoBehaviour
 	public void Fade(bool fIn, string nScene)
 	{
 		//habilita o FadeImg
-		FadeImg.enabled = true;
+		if(FadeImg) FadeImg.enabled = true;
 		//variáveis do fade
 		fadeIn = fIn;
 		nextScene = nScene;
@@ -44,7 +44,7 @@ public class SceneTransition : MonoBehaviour
 			//if(fadeIn) color = (1-timer); else color = timer;
 			color = fadeIn ? (1 - timer) : timer;
 			//setta a transparência, causando o efeito de fade
-			FadeImg.color = new Color(0, 0, 0, color);
+			if(FadeImg) FadeImg.color = new Color(0, 0, 0, color);
 			yield return null;
 		}
 		//quando o timer acaba
@@ -55,7 +55,7 @@ public class SceneTransition : MonoBehaviour
 					SceneManager.LoadScene(nextScene);
 			else
 				//desabilita o FadeImg
-				FadeImg.enabled = false;
+				if(FadeImg) FadeImg.enabled = false;
 			
 			//encerra a coroutine
 			StopCoroutine("CauseFade");
