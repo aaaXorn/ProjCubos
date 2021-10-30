@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabInput: 0
+  raycastDist: 4
+  hitDist: 0
+  rayDownMod: 0.35
+  layerMask: Pickup
 --- !u!1001 &1567793865537017985
 PrefabInstance:
   m_ObjectHideFlags: 0
