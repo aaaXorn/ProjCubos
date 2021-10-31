@@ -10,7 +10,6 @@ public class Pickup_Teste : MonoBehaviour
 
 	//o que o raycast atingiu
     RaycastHit rayHit;
-    
 	//alcance do raycast, onde o raycast acertou e o quão pra baixo o raycast é gerado
     [SerializeField]
     float raycastDist, hitDist, rayDownMod;
@@ -19,8 +18,17 @@ public class Pickup_Teste : MonoBehaviour
     [SerializeField]
     string layerMask;//nome da layer
     int groundLayer;//id da layer
-
-    
+	
+	[SerializeField]
+	bool grabClose, grabFar;
+	
+	//posição do grab/spawn da mochila
+    [SerializeField]
+	Transform transfPos;
+	//objeto agarrado/sendo carregado
+	[SerializeField]
+	GameObject GrabTarget, MochilaTarget;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -31,33 +39,114 @@ public class Pickup_Teste : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		//setta o input de grab
-        grabInput = Input.GetButton("Interact");
-        Debug.Log("grab " + grabInput);
-
+		//setta o input de grab e mochila
+        grabInput = Input.GetButtonDown("Interact");
+		
 		//debug: desenha o Raycast na tela, Vector3.right em vez de .forward porque a frente ta como X em vez de Z ops
 		Debug.DrawRay(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right) * raycastDist, Color.red);
 
 		//se o jogador está tentando pegar um item
         if (grabInput)
         {
-			//gera um raycast, se acertar um objeto da layer layerMask continua
-            if (Physics.Raycast(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right), out rayHit, raycastDist, groundLayer))
-            {
-				//checa a distância entre o jogador e o objeto atingido
-                hitDist = Vector3.Distance(transform.position, rayHit.point);
-				
-				//se a distância for menor que 2
-                if (hitDist < 2)
-                {
-					Debug.Log("perto");
-                }
-				//se for maior que 2
-                else
-                {
-					Debug.Log("longe");
-                }            
-            }
+			//checa o tipo de grab usado
+			GrabCheck();
         }
     }
+	
+	void FixedUpdate()
+	{
+		//enquanto o objeto está sendo agarrado
+		if(grabClose)
+		{
+			//move o objeto
+			Grab();
+		}
+	}
+	
+	void Grab()
+	{
+		//move o objeto pra frente do player
+		GrabTarget.transform.position = Vector3.MoveTowards(GrabTarget.transform.position, 
+															transfPos.position,
+															4.5f);
+	}
+	
+	void Mochila()
+	{
+		//desativa o gameobj
+		MochilaTarget.SetActive(false);
+		grabFar = true;
+	}
+	
+	void TiraMochila()
+	{
+		//coloca a posição na frente do player
+		MochilaTarget.transform.position = transfPos.position;
+		
+		//ativa o gameObj
+		MochilaTarget.SetActive(true);
+		grabFar = false;
+	}
+	
+	//checa qual tipo de grab fazer
+	void GrabCheck()
+	{
+		//solta o objeto agarrado
+			if(grabClose)
+			{
+				grabClose = false;
+				
+				//habilita a gravidade do objeto
+				GrabTarget.GetComponent<Rigidbody>().useGravity = true;
+			}
+			//pega um objeto se estiver próximo
+			else
+			{
+				//gera um raycast, se acertar um objeto da layer layerMask continua
+				if (Physics.Raycast(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right), out rayHit, raycastDist, groundLayer))
+				{
+					//checa a distância entre o jogador e o objeto atingido
+					hitDist = Vector3.Distance(transform.position, rayHit.point);
+					
+					//se a distância for menor que 2, agarra
+					if (hitDist < 2)
+					{
+						//setta o objeto agarrado
+						GrabTarget = rayHit.collider.gameObject;
+						grabClose = true;
+						
+						//tira a gravidade pra não bugar
+						GrabTarget.GetComponent<Rigidbody>().useGravity = false;
+						
+						//Grab(rayHit.collider.gameObject);
+						Debug.Log("perto");
+					}
+					//se for maior que 2
+					else if(hitDist >= 2)
+					{
+						if(!grabFar)
+						{
+							//setta o objeto carregado
+							MochilaTarget = rayHit.collider.gameObject;
+							
+							//coloca o obj na mochila
+							Mochila();
+						}
+						//se estiver com algo na mochila, solta
+						else
+						{
+							TiraMochila();
+						}
+					}
+				}
+				else
+				{
+					//solta o objeto na mochila
+					if(grabFar)
+					{
+						TiraMochila();
+					}
+				}
+			}
+	}
 }
