@@ -8,6 +8,7 @@ public class WaterPush : MonoBehaviour
 	[SerializeField]
 	float floatPos;
 	
+	[Header("Force.y > 9.8 é mais forte que a gravidade padrão")]
 	//força da água
 	[SerializeField]
 	Vector3 Force;
@@ -16,21 +17,10 @@ public class WaterPush : MonoBehaviour
 	[SerializeField]
 	Rigidbody otherRigid;
 	
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-	
+	//enquanto um objeto está dentro da água
 	void OnTriggerStay(Collider other)
 	{
-		
+		WaterForce(other);
 	}
 	
 	void WaterForce(Collider obj)
@@ -49,8 +39,8 @@ public class WaterPush : MonoBehaviour
 		{
 			if(otherRigid != null)
 			{
-				//se acima de floatPos, força Y é ignorada
-				otherRigid.AddForce(Force.x, 0, Force.z);
+				//se acima de floatPos, força Y é diminuída
+				otherRigid.AddForce(Force.x, Force.y/2, Force.z);
 			}
 		}
 	}

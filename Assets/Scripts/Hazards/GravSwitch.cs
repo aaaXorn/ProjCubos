@@ -7,6 +7,7 @@ public class GravSwitch : MonoBehaviour
 	[SerializeField]
 	bool change;
 	
+	[Header("Grav Padrão: Y = -10")]
 	[SerializeField]
 	Vector3 gravDir;
 	

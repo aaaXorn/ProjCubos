@@ -29,11 +29,18 @@ public class Pickup_Teste : MonoBehaviour
 	[SerializeField]
 	GameObject GrabTarget, MochilaTarget;
 	
+	//rigidbody do player
+	[SerializeField]
+	Rigidbody rigid;
+	
     // Start is called before the first frame update
     void Start()
     {
 		//setta o groundLayer como a layer que tem o nome layerMask
         groundLayer = LayerMask.GetMask(layerMask);
+		
+		//setta o rigidbody
+		rigid = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -98,6 +105,8 @@ public class Pickup_Teste : MonoBehaviour
 				
 				//habilita a gravidade do objeto
 				GrabTarget.GetComponent<Rigidbody>().useGravity = true;
+				//deixa a velocidade do objeto igual a do player, impedindo ele de ser catapultado
+				GrabTarget.GetComponent<Rigidbody>().velocity = rigid.velocity;
 			}
 			//pega um objeto se estiver próximo
 			else
@@ -139,11 +148,13 @@ public class Pickup_Teste : MonoBehaviour
 						}
 					}
 				}
+				//se o raio erra
 				else
 				{
-					//solta o objeto na mochila
+					//se tem algo na mochila
 					if(grabFar)
 					{
+						//solta o objeto na mochila
 						TiraMochila();
 					}
 				}
