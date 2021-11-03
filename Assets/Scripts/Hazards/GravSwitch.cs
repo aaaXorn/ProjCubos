@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class GravSwitch : MonoBehaviour
 {
-	[SerializeField]
-	bool change;
+	public bool change;
 	
 	[Header("Grav Padrão: Y = -10")]
-	[SerializeField]
-	Vector3 gravDir;
+	public Vector3 gravDir;
 	
     // Start is called before the first frame update
     void Start()
