@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using System.IO;
 
 public class Menu : MonoBehaviour
 {
+	[SerializeField] SaveGame SG;
+	
 	//script de transição
 	[SerializeField] SceneTransition ST;
 	//mixer de audio
@@ -15,8 +18,11 @@ public class Menu : MonoBehaviour
 	//objeto com as configurações
 	[SerializeField] GameObject OptionsObj;
 	
-	//dropdown com as opções de resolução
-	[SerializeField] Dropdown resDropdown;
+	//objetos de UI das opções
+	[SerializeField] Dropdown graphicsDropdown, resDropdown;
+	[SerializeField] Toggle fscreenToggle;
+	[SerializeField] Slider volSlider;
+	
 	//array com as resoluções
 	Resolution[] resolutions;
 	
@@ -24,6 +30,37 @@ public class Menu : MonoBehaviour
     {
 		//coloca as resoluções no array
         resolutions = Screen.resolutions;
+		
+		if(File.Exists(Application.persistentDataPath + "/SaveInfo.topologix"))
+		{
+			OptionsOnStart();
+		}
+		
+		ResOnStart();
+    }
+		
+		//setta as opções do menu salvas
+		void OptionsOnStart()
+		{
+			//resolução
+			SetResolution(SG.resolution);
+			
+			//fullscreen
+			SetFullscreen(SG.fullScreen);
+			fscreenToggle.isOn = SG.fullScreen;
+			
+			//qualidade gráfica
+			SetQuality(SG.graphicQuality);
+			graphicsDropdown.value = SG.graphicQuality;
+			
+			//volume
+			VolumeSlider(SG.mainVolume);
+			volSlider.value = SG.mainVolume;
+		}
+	
+		//setta a resolução quando o jogo começa
+		void ResOnStart()
+		{
 		//limpa as opções do dropdown
 		resDropdown.ClearOptions();
 		
@@ -38,11 +75,12 @@ public class Menu : MonoBehaviour
 			string option = resolutions[i].width + "x" + resolutions[i].height;
 			resOptions.Add(option);
 			
-			//se a resolução i for igual a resolução da tela, currRes = i
+			//se a resolução i for igual a resolução da tela, setta a resolução atual como i
 			if(resolutions[i].width == Screen.currentResolution.width &&
 			   resolutions[i].height == Screen.currentResolution.height)
 			{
 				currRes = i;
+				SG.resolution = currRes;
 			}
 		}
 		
@@ -52,12 +90,14 @@ public class Menu : MonoBehaviour
 		resDropdown.value = currRes;
 		//da refresh no valor do dropdown
 		resDropdown.RefreshShownValue();
-    }
+		}
 
     public void NewGame()
 	{
-		ST.Fade(false, "MainMenu");
-		//primeiro nível
+		SG.Save();
+		
+		//abre o primeiro nível
+		ST.Fade(false, "Stage 1");
 	}
 	
 	public void SelectStage()
@@ -81,6 +121,8 @@ public class Menu : MonoBehaviour
 			//setta a variável de volume do AudioMixer
 			audioM.SetFloat("Volume", Mathf.Log10(volume) * 20);
 			
+			SG.mainVolume = volume;
+			
 			Debug.Log("Volume: " + Mathf.Log10(volume) * 20);
 		}
 	
@@ -91,13 +133,17 @@ public class Menu : MonoBehaviour
 			//0 very low, 1 low, 2 medium, 3 high, 4 very high, 5 ultra
 			QualitySettings.SetQualityLevel(quality);
 			
+			SG.graphicQuality = quality;
+			
 			Debug.Log("Quality: " + quality);
 		}
 		
 		//deixa o jogo em fullscreen/windowed
-		public void SetFullscren(bool fscreen)
+		public void SetFullscreen(bool fscreen)
 		{
 			Screen.fullScreen = fscreen;
+			
+			SG.fullScreen = fscreen;
 			
 			Debug.Log("Fullscreen: " + fscreen);
 		}
@@ -110,6 +156,8 @@ public class Menu : MonoBehaviour
 			//setta a resolução
 			Screen.SetResolution(res.width, res.height, Screen.fullScreen);
 			
+			SG.resolution = resIndex;
+			
 			Debug.Log("Resolution: " + res.width + "x" + res.height);
 		}
 	
@@ -117,6 +165,8 @@ public class Menu : MonoBehaviour
 	
 	public void Exit()
 	{
+		SG.Save();
+		
 		//sai do jogo
 		Application.Quit();
 	}

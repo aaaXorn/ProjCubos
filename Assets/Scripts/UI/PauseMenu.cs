@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+	[SerializeField] SaveGame SG;
+	
 	public bool paused = false;//se o jogo está pausado
 	[SerializeField] GameObject PauseObj;//tela de menu do pause;
 	
@@ -65,12 +67,16 @@ public class PauseMenu : MonoBehaviour
 	
 	public void Restart()
 	{
+		SG.Save();
+		
 		//reinicia a scene atual
 		ST.Fade(false, SceneManager.GetActiveScene().name);
 	}
 	
 	public void Title()
 	{
+		SG.Save();
+		
 		//vai pro main menu
 		ST.Fade(false, "MainMenu");
 	}

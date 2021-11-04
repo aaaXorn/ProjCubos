@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 129
+  controlID: 90
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 41
+  controlID: 91
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 526
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8f5ffff
-      m_LastClickedID: -2584
-      m_ExpandedIDs: 52fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 7cc8ffff48c9ffff14caffffe0caffffa4cbffff26cdffffb4e6ffff02e9ffff6cf3ffff46fbffffca4300009044000010450000c24a0000de4a00002a4c0000a66b0000726c0000f26c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -462,9 +462,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.142632, y: -26.843082, z: 29.740376}
+    m_Target: {x: 1143.7362, y: 486.45984, z: 207.11584}
     speed: 2
-    m_Value: {x: 19.142632, y: -26.843082, z: 29.740376}
+    m_Value: {x: 1143.7362, y: 486.45984, z: 207.11584}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,13 +511,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.35144368, y: -0.26608384, z: 0.104433715, w: -0.89172256}
+    m_Target: {x: -0.055792645, y: -0.0093346145, z: 0.00015159626, w: -0.9985954}
     speed: 2
-    m_Value: {x: -0.3513754, y: -0.26603213, z: 0.10441343, w: -0.89154935}
+    m_Value: {x: -0.055781692, y: -0.009332783, z: 0.0001515665, w: -0.9983994}
   m_Size:
-    m_Target: 46.407055
+    m_Target: 775.7755
     speed: 2
-    m_Value: 44.408665
+    m_Value: 775.7755
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -641,22 +641,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Hazards
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scripts/Hazards
+  - Assets/Prefabs
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\Documentos\GitHub\ProjCubos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 1.3661972}
-    m_SelectedIDs: 94400000
-    m_LastClickedID: 16532
-    m_ExpandedIDs: 0000000062400000804000009440000000ca9a3b
+    m_SelectedIDs: a2400000
+    m_LastClickedID: 16546
+    m_ExpandedIDs: 0000000088400000a640000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000062400000
+    m_ExpandedIDs: 0000000088400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
