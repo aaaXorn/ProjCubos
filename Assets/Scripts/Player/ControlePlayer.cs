@@ -38,7 +38,7 @@ public class ControlePlayer : MonoBehaviour
 	bool grounded;//se o player está no chão
 	bool jumpStart;//se o player começou a pular
 	
-	[SerializeField] PlayerHealth PH;
+	[SerializeField] PlayerHealth PH;//script de HP
 	
 	//setta variáveis
     void Start()

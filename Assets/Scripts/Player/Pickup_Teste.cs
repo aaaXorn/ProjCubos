@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pickup_Teste : MonoBehaviour
 {
-	//input de grab
-    [SerializeField]
-    bool grabInput;
-
+	//input de grab e de troca da forma da mochila
+    bool grabInput, mochilaInput;
+	
 	//o que o raycast atingiu
     RaycastHit rayHit;
 	//alcance do raycast, onde o raycast acertou e o quão pra baixo o raycast é gerado
@@ -19,8 +19,9 @@ public class Pickup_Teste : MonoBehaviour
     string layerMask;//nome da layer
     int groundLayer;//id da layer
 	
-	[SerializeField]
-	bool grabClose, grabFar;
+	[Header("Grab")]
+	[SerializeField] bool grabClose;
+	[SerializeField] bool grabFar;
 	
 	//posição do grab/spawn da mochila
     [SerializeField]
@@ -30,8 +31,17 @@ public class Pickup_Teste : MonoBehaviour
 	GameObject GrabTarget, MochilaTarget;
 	
 	//rigidbody do player
-	[SerializeField]
 	Rigidbody rigid;
+	
+	[Header("Formas")]
+	//forma atual
+	[SerializeField] int currForm;
+	//imagem das formas
+	[SerializeField] Image FormaImg;
+	//sprites das formas
+	[SerializeField] Sprite sprSquare, sprCircle, sprRectangle, sprTriangle;
+	//game objects das formas
+	[SerializeField] GameObject Square, Circle, Rectangle, Triangle;
 	
     // Start is called before the first frame update
     void Start()
@@ -48,16 +58,22 @@ public class Pickup_Teste : MonoBehaviour
     {
 		//setta o input de grab e mochila
         grabInput = Input.GetButtonDown("Interact");
+		mochilaInput = Input.GetButtonDown("Mochila");
 		
 		//debug: desenha o Raycast na tela, Vector3.right em vez de .forward porque a frente ta como X em vez de Z ops
 		Debug.DrawRay(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right) * raycastDist, Color.red);
 
 		//se o jogador está tentando pegar um item
-        if (grabInput)
+        if(grabInput)
         {
 			//checa o tipo de grab usado
 			GrabCheck();
         }
+		
+		if(mochilaInput)
+		{
+			ChangeMochila();
+		}
     }
 	
 	void FixedUpdate()
@@ -159,5 +175,36 @@ public class Pickup_Teste : MonoBehaviour
 					}
 				}
 			}
+	}
+	
+	//muda o objeto dentro da mochila
+	void ChangeMochila()
+	{
+		currForm++;
+		if(currForm >= 4) currForm = 0;
+		
+		switch(currForm)
+		{
+			case 0:
+				FormaImg.sprite = sprSquare;
+				break;
+			
+			case 1:
+				FormaImg.sprite = sprCircle;
+				break;
+			
+			case 2:
+				FormaImg.sprite = sprRectangle;
+				break;
+				
+			case 3:
+				FormaImg.sprite = sprTriangle;
+				break;
+			
+			default:
+				currForm = 0;
+				print("Error: currForm = " + currForm);
+				break;
+		}
 	}
 }
