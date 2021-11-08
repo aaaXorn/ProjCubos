@@ -96,18 +96,19 @@ public class Pickup_Teste : MonoBehaviour
 	
 	void Mochila()
 	{
-		//desativa o gameobj
-		MochilaTarget.SetActive(false);
+		//destrói o GrabTarget
+		Destroy(GrabTarget);
+		
+		//deixa o jogador criar um novo objeto
 		grabFar = true;
 	}
 	
 	void TiraMochila()
 	{
 		//coloca a posição na frente do player
-		MochilaTarget.transform.position = transfPos.position;
+		Instantiate(MochilaTarget, transfPos.position, transform.rotation);
 		
-		//ativa o gameObj
-		MochilaTarget.SetActive(true);
+		//impede o player de spawnar mais objetos do que tem na mochila
 		grabFar = false;
 	}
 	
@@ -151,9 +152,6 @@ public class Pickup_Teste : MonoBehaviour
 					{
 						if(!grabFar)
 						{
-							//setta o objeto carregado
-							MochilaTarget = rayHit.collider.gameObject;
-							
 							//coloca o obj na mochila
 							Mochila();
 						}
@@ -187,18 +185,22 @@ public class Pickup_Teste : MonoBehaviour
 		{
 			case 0:
 				FormaImg.sprite = sprSquare;
+				MochilaTarget = Square;
 				break;
 			
 			case 1:
 				FormaImg.sprite = sprCircle;
+				MochilaTarget = Circle;
 				break;
 			
 			case 2:
 				FormaImg.sprite = sprRectangle;
+				MochilaTarget = Rectangle;
 				break;
 				
 			case 3:
 				FormaImg.sprite = sprTriangle;
+				MochilaTarget = Triangle;
 				break;
 			
 			default:
