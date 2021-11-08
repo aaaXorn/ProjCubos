@@ -119,10 +119,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dead: 0
-  ST: {fileID: 0}
+  cooldown: 0
+  timer: 0
+  ST: {fileID: 372050608759852123}
+  rigid: {fileID: 897615618040925128}
   HP: 10
   maxHP: 10
   FillImg: {fileID: 897615619395097322}
+  damageKB: 300
 --- !u!114 &803717810511556434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,8 +139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bfe77e6b9d82941aedff3096dce67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabInput: 0
-  mochilaInput: 1
   raycastDist: 4
   hitDist: 0
   rayDownMod: 0.35
@@ -146,13 +148,16 @@ MonoBehaviour:
   transfPos: {fileID: 4193927436409490604}
   GrabTarget: {fileID: 0}
   MochilaTarget: {fileID: 0}
-  rigid: {fileID: 0}
   currForm: 0
   FormaImg: {fileID: 6542373464083455298}
   sprSquare: {fileID: 21300000, guid: 690c7a068aa8c8f4cb631cb5892e0093, type: 3}
   sprCircle: {fileID: 21300000, guid: ec2ca6042f289714e988ce87f600cd92, type: 3}
   sprRectangle: {fileID: 21300000, guid: 197b1056c3d3ab14fa674fba7f279735, type: 3}
   sprTriangle: {fileID: 21300000, guid: c8540e6229a75494997fac9f2634b64e, type: 3}
+  Square: {fileID: 0}
+  Circle: {fileID: 0}
+  Rectangle: {fileID: 0}
+  Triangle: {fileID: 0}
 --- !u!136 &897615618040925131
 CapsuleCollider:
   m_ObjectHideFlags: 0

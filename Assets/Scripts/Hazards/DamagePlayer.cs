@@ -4,28 +4,14 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] float damage;
 	
 	void OnCollisionEnter(Collision other)
 	{
 		if(other.gameObject.CompareTag("Player"))
 		{
-			CauseDamage();
+			//causa damage de dano
+			other.gameObject.GetComponent<PlayerHealth>().ChangeHP(damage, transform.position);
 		}
-	}
-	
-	void CauseDamage()
-	{
-		
 	}
 }

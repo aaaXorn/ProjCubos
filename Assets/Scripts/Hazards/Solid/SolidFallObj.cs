@@ -38,7 +38,7 @@ public class SolidFallObj : MonoBehaviour
 			if(other.gameObject.CompareTag("Player"))
 			{
 				//causa damage de dano
-				other.gameObject.GetComponent<PlayerHealth>().ChangeHP(damage);
+				other.gameObject.GetComponent<PlayerHealth>().ChangeHP(damage, transform.position);
 			}
 		}
 	}
