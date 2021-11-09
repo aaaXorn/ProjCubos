@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
 	[SerializeField] SaveGame SG;
+	[SerializeField] int currentLevel;
+	
+	//imagens da UI
+	[SerializeField] Image CSolidoUI;
 	
 	public bool paused = false;//se o jogo está pausado
 	[SerializeField] GameObject PauseObj;//tela de menu do pause;
@@ -22,6 +27,11 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = false;//tira o cursor
 		
 		Time.timeScale = unpausedTimeScale;
+		
+		if(currentLevel > 1)
+		{
+			CSolidoUI.enabled = true;
+		}
     }
 
     // Update is called once per frame

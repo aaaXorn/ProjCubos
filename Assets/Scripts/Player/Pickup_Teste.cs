@@ -89,9 +89,14 @@ public class Pickup_Teste : MonoBehaviour
 	void Grab()
 	{
 		//move o objeto pra frente do player
-		GrabTarget.transform.position = Vector3.MoveTowards(GrabTarget.transform.position, 
+		/*GrabTarget.transform.position = Vector3.MoveTowards(GrabTarget.transform.position, 
 															transfPos.position,
-															4.5f);
+															4.5f);*/
+		//distância com direção
+		var distWDir = transfPos.position - GrabTarget.transform.position;
+		
+		//move o objeto, aplicando colisões apropriadamente
+		GrabTarget.GetComponent<Rigidbody>().velocity = distWDir * 5f;
 	}
 	
 	void Mochila()
@@ -124,41 +129,51 @@ public class Pickup_Teste : MonoBehaviour
 				GrabTarget.GetComponent<Rigidbody>().useGravity = true;
 				//deixa a velocidade do objeto igual a do player, impedindo ele de ser catapultado
 				GrabTarget.GetComponent<Rigidbody>().velocity = rigid.velocity;
+				//retorna a massa do objeto ao normal
+				GrabTarget.GetComponent<Rigidbody>().mass = 1;
 			}
 			//pega um objeto se estiver próximo
 			else
 			{
 				//gera um raycast, se acertar um objeto da layer layerMask continua
-				if (Physics.Raycast(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right), out rayHit, raycastDist, groundLayer))
+				if (Physics.Raycast(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right), out rayHit, raycastDist))
 				{
-					//checa a distância entre o jogador e o objeto atingido
-					hitDist = Vector3.Distance(transform.position, rayHit.point);
-					
-					//se a distância for menor que 2, agarra
-					if (hitDist < 2)
+					if(rayHit.transform.gameObject.CompareTag("Pickup"))
 					{
+						//checa a distância entre o jogador e o objeto atingido
+						hitDist = Vector3.Distance(transform.position, rayHit.point);
+						
 						//setta o objeto agarrado
 						GrabTarget = rayHit.collider.gameObject;
-						grabClose = true;
 						
-						//tira a gravidade pra não bugar
-						GrabTarget.GetComponent<Rigidbody>().useGravity = false;
-						
-						//Grab(rayHit.collider.gameObject);
-						Debug.Log("perto");
-					}
-					//se for maior que 2
-					else if(hitDist >= 2)
-					{
-						if(!grabFar)
+						//se a distância for menor que 2, agarra
+						if (hitDist < 2)
 						{
-							//coloca o obj na mochila
-							Mochila();
+							//agarra o objeto
+							grabClose = true;
+							
+							//tira a gravidade pra não bugar
+							GrabTarget.GetComponent<Rigidbody>().useGravity = false;
+							
+							//diminui a massa do objeto para não bugar
+							GrabTarget.GetComponent<Rigidbody>().mass = 0.01f;
+							
+							//Grab(rayHit.collider.gameObject);
+							Debug.Log("perto");
 						}
-						//se estiver com algo na mochila, solta
-						else
+						//se for maior que 2
+						else if(hitDist >= 2)
 						{
-							TiraMochila();
+							if(!grabFar)
+							{
+								//coloca o obj na mochila
+								Mochila();
+							}
+							//se estiver com algo na mochila, solta
+							else
+							{
+								TiraMochila();
+							}
 						}
 					}
 				}
