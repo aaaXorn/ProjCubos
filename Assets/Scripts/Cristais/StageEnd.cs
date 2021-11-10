@@ -5,11 +5,18 @@ using UnityEngine;
 public class StageEnd : MonoBehaviour
 {
     [SerializeField] SceneTransition ST;
-	[SerializeField] string nextScene;
+	[SerializeField] SaveGame SG;
+	[SerializeField] string nextScene;//próximo nível
 	
 	void OnTriggerEnter(Collider other)
 	{
 		if(other.gameObject.CompareTag("Player"))
-			ST.Fade(false, nextScene);
+		{
+			if(SG.levelsUnlocked < 1)
+				SG.levelsUnlocked = 1;//desbloqueia o segundo nível
+			
+			SG.Save();//salva o jogo
+			ST.Fade(false, nextScene);//muda o nível
+		}
 	}
 }

@@ -31,12 +31,12 @@ public class Menu : MonoBehaviour
 		//coloca as resoluções no array
         resolutions = Screen.resolutions;
 		
+		ResOnStart();
+		
 		if(File.Exists(Application.persistentDataPath + "/SaveInfo.topologix"))
 		{
 			OptionsOnStart();
 		}
-		
-		ResOnStart();
     }
 		
 		//setta as opções do menu salvas
