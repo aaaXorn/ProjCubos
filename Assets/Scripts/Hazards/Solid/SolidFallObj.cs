@@ -5,6 +5,7 @@ using UnityEngine;
 public class SolidFallObj : MonoBehaviour
 {
 	Rigidbody rigid;
+	Material mat;//material do objeto
 	
 	//timer e cor (transparência)
 	[SerializeField] float timer, color;
@@ -18,6 +19,8 @@ public class SolidFallObj : MonoBehaviour
 		rigid.constraints = RigidbodyConstraints.FreezeRotation | 
 							RigidbodyConstraints.FreezePositionX | 
 							RigidbodyConstraints.FreezePositionZ;
+							
+		mat = GetComponent<MeshRenderer>().material;
 	}
 	
     void OnCollisionEnter(Collision other)
@@ -52,13 +55,15 @@ public class SolidFallObj : MonoBehaviour
 			timer += Time.deltaTime;
 			color = 1 - (timer / 3);
 			//setta a transparência, causando o efeito de fade
-			gameObject.GetComponent<MeshRenderer>().material.color = new Color(1, 1, 1, color);
+			mat.color = new Color(mat.color.r, mat.color.g, mat.color.b, color);
 			yield return null;
 		}
 		//quando o timer acaba
 		if(timer >= 3)
 		{
 			Destroy(gameObject);
+			
+			StopCoroutine("MeshFade");
 		}
 	}
 }
