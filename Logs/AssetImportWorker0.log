@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'pt' Physical Memory: 16315 MB
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'pt' Physical Memory: 8123 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Programas\Unity\Unity Editor\2020.3.20f1\Editor\Unity.exe
+D:\2020.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Documentos/GitHub/ProjCubos
+D:/ProjCubos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55568
-Successfully changed project path to: D:/Documentos/GitHub/ProjCubos
-D:/Documentos/GitHub/ProjCubos
+62984
+Successfully changed project path to: D:/ProjCubos
+D:/ProjCubos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 125.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
-[Subsystems] Discovering subsystems at path D:/Programas/Unity/Unity Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Documentos/GitHub/ProjCubos/Assets
+[Subsystems] Discovering subsystems at path D:/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProjCubos/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Renderer: Radeon RX 570 Series (ID=0x67df)
     Vendor:   
-    VRAM:     8079 MB
-    Driver:   27.21.14.6192
+    VRAM:     4075 MB
+    Driver:   30.0.13033.1000
 Initialize mono
-Mono path[0] = 'D:/Programas/Unity/Unity Editor/2020.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Programas/Unity/Unity Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Programas/Unity/Unity Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Mono path[0] = 'D:/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Programas/Unity/Unity Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001012 seconds.
+Register platform support module: D:/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003116 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 141.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  2.835 seconds
 Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (41ms)
+	ReloadAssembly (2835ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (357ms)
-			LoadAssemblies (40ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (155ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002085 seconds.
+Registered in 0.007193 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 181.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  3.244 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (3246ms)
+		BeginReloadAssembly (388ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (849ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2758ms)
+			LoadAssemblies (293ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (917ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (276ms)
+			SetupLoadedEditorAssemblies (1066ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (182ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (673ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.2 MB.
-System memory in use after: 228.4 MB.
+Unloading 3521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.3 MB.
+System memory in use after: 229.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3958.
-Total: 3.547700 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.092400 ms MarkObjects: 3.057700 ms  DeleteObjects: 0.076000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3964.
+Total: 7.319900 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.101900 ms MarkObjects: 6.717000 ms  DeleteObjects: 0.093600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1192 +131,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shaders/Glow 1.shadergraph
-  artifactKey: Guid(5cd837997b390bf4f8afcf3ea7eafd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Glow 1.shadergraph using Guid(5cd837997b390bf4f8afcf3ea7eafd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69905adc933af0e15ada3515399121c1') in 0.037432 seconds 
-  Import took 0.042353 seconds .
+  path: Assets/Scenes
+  artifactKey: Guid(f6c328c7d64034645b026e14dfbf7443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f6c328c7d64034645b026e14dfbf7443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53056a5bf3067761c37307caeb92235') in 0.024198 seconds 
+  Import took 0.037278 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.599286 seconds.
-  path: Assets/Shaders/GlowCSolido.shadergraph
-  artifactKey: Guid(d16720f424bfc2b4399de8be1b3c48ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/GlowCSolido.shadergraph using Guid(d16720f424bfc2b4399de8be1b3c48ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea13ce0858be244564abbb20ef45e30') in 0.005391 seconds 
-  Import took 0.010256 seconds .
+  Time since last request: 0.395649 seconds.
+  path: Assets/Scenes/Stage 2.unity
+  artifactKey: Guid(a7827c2877a930f4c8c7bb0fe75cc181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage 2.unity using Guid(a7827c2877a930f4c8c7bb0fe75cc181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f686fb02f68b647c25d951b8347dc19e') in 0.057618 seconds 
+  Import took 0.068194 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.753285 seconds.
-  path: Assets/Shaders/GlowFire.shadergraph
-  artifactKey: Guid(5cd837997b390bf4f8afcf3ea7eafd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/GlowFire.shadergraph using Guid(5cd837997b390bf4f8afcf3ea7eafd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e821750ddde6956725cdcfd7282be349') in 0.006424 seconds 
-  Import took 0.011638 seconds .
+  Time since last request: 258.625131 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(658bb865dfd606b479b6314443cb5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(658bb865dfd606b479b6314443cb5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e18fd8c614aa1d1dc148b6122e43986') in 0.014510 seconds 
+  Import took 0.023516 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.841017 seconds.
-  path: Assets/Shaders/Shader Graph
-  artifactKey: Guid(12d1f432c9554a949b3746de09ae7638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph using Guid(12d1f432c9554a949b3746de09ae7638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4df434e7716be82b740360a2d9877e5') in 0.006108 seconds 
-  Import took 0.011301 seconds .
+  Time since last request: 0.038284 seconds.
+  path: Assets/Prefabs/Player & Canvas.prefab
+  artifactKey: Guid(8e846811fe78014429506004d7639509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player & Canvas.prefab using Guid(8e846811fe78014429506004d7639509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc409a8e7b2552bd5cf6540b825211') in 0.699984 seconds 
+  Import took 0.711996 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.933640 seconds.
-  path: Assets/Shaders/VFX Graph
-  artifactKey: Guid(0ac9a15b5e855834095715a5c15c6b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph using Guid(0ac9a15b5e855834095715a5c15c6b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3572e2a8f0c0166663b591f47c3828') in 0.004406 seconds 
-  Import took 0.023074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.586768 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf2188408fcaed2cd31fca76483440f') in 0.010204 seconds 
-  Import took 0.015225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.454533 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329e061e465eafd389bb229b69497b31') in 0.004094 seconds 
-  Import took 0.009165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.578275 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec82e6619766fc6ba9d6b9fb57466a5') in 0.004142 seconds 
-  Import took 0.009528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.964744 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eadc5a7db3ac88486c895118c3bb2c') in 0.004140 seconds 
-  Import took 0.009845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.238997 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad944a27d9388be269aafc0d3becc9a') in 0.004068 seconds 
-  Import took 0.009721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.827297 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga
-  artifactKey: Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga using Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363cef303682c19331968eebc7eb62e1') in 0.028716 seconds 
-  Import took 0.034049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/SignedDistanceField.asset
-  artifactKey: Guid(5c2949c31aafddd4e8011ffdebb8fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/SignedDistanceField.asset using Guid(5c2949c31aafddd4e8011ffdebb8fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f1194dfd8dba12bd847130968ec98f') in 0.088872 seconds 
-  Import took 0.094127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/Sphere.tga
-  artifactKey: Guid(d01d8874889eebc4ab0cde7f2b3309de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/Sphere.tga using Guid(d01d8874889eebc4ab0cde7f2b3309de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731d4245414160b72638be073401bf7') in 0.037241 seconds 
-  Import took 0.042082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/Sparkle.tga
-  artifactKey: Guid(49cb5aa34272b034d8b754c65d9cdbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/Sparkle.tga using Guid(49cb5aa34272b034d8b754c65d9cdbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7ab9f4ef8e5ef7b49cd0e08227f46f') in 0.046388 seconds 
-  Import took 0.050790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/vectorfield.asset
-  artifactKey: Guid(08937e3134903c5488be506a2dac71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/vectorfield.asset using Guid(08937e3134903c5488be506a2dac71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6984d5f5d1169adbac627373063021fc') in 0.022313 seconds 
-  Import took 0.027273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/Noise.tga
-  artifactKey: Guid(1d8481de16af723418a688958c41224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/Noise.tga using Guid(1d8481de16af723418a688958c41224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e0dff9776c1f69d78da2b7065b7607') in 0.008655 seconds 
-  Import took 0.013041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/SimpleSmoke.tga
-  artifactKey: Guid(de0fae515169ff246a20d58a8a440ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/SimpleSmoke.tga using Guid(de0fae515169ff246a20d58a8a440ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d786a416eef8cdc7f62f55ddebf64c7') in 0.038933 seconds 
-  Import took 0.044055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081995 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled.png
-  artifactKey: Guid(0e5ba0f04df278944a8f5a62f64f5aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled.png using Guid(0e5ba0f04df278944a8f5a62f64f5aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8b16fd605cb957b25a023c03ce9113') in 0.111951 seconds 
-  Import took 0.117323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/diff-dark@2x.png
-  artifactKey: Guid(1875b6a8fb148514ab1d9494eae2dd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/diff-dark@2x.png using Guid(1875b6a8fb148514ab1d9494eae2dd9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e3aded7df60329c70a661896098d5') in 0.044870 seconds 
-  Import took 0.049473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/diff-dark.png
-  artifactKey: Guid(06bb2a7fb040987409dae109d185de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/diff-dark.png using Guid(06bb2a7fb040987409dae109d185de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f297350c8b348fa17f4b30eb248e68d1') in 0.024535 seconds 
-  Import took 0.029667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark@2x.png
-  artifactKey: Guid(a7d900a247e707e45a257328c3ee381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark@2x.png using Guid(a7d900a247e707e45a257328c3ee381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f45a0178f8a1791a1b79ea9756fba7e') in 0.015438 seconds 
-  Import took 0.021095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark.png
-  artifactKey: Guid(ce3ca6a541b5fbc4c80edb5195d78731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-dark.png using Guid(ce3ca6a541b5fbc4c80edb5195d78731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad8626eef157e16eb0dcc99c594ea5e') in 0.020797 seconds 
-  Import took 0.025989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-light@2x.png
-  artifactKey: Guid(f1c735dde115d4f4c9ff5c633f07fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-light@2x.png using Guid(f1c735dde115d4f4c9ff5c633f07fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614e856cf2e979f0bccbe40e0d4012fe') in 0.024408 seconds 
-  Import took 0.029152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-light.png
-  artifactKey: Guid(bb678af880b2dd74cbd76186590c66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/deleted-file-light.png using Guid(bb678af880b2dd74cbd76186590c66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d0082b06d6b1ef1a1e3f40047a3289') in 0.027258 seconds 
-  Import took 0.031891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled@2x.png
-  artifactKey: Guid(0f1c9a12872a30f45bab34f536332bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackRecordButtonEnabled@2x.png using Guid(0f1c9a12872a30f45bab34f536332bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4b8e94bcc184aa87730c6be3befa25') in 0.012248 seconds 
-  Import took 0.017545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.309659 seconds.
-  path: Packages/com.unity.visualeffectgraph/package.json
-  artifactKey: Guid(6f8f5c087a5cb4bd19c1e4898d57e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/package.json using Guid(6f8f5c087a5cb4bd19c1e4898d57e453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aec3c92a237ea2ee343bdd0a3ca2996') in 0.052435 seconds 
-  Import took 0.057684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Packages/com.unity.visualeffectgraph/Unity.VisualEffectGraph.Runtime.asmdef
-  artifactKey: Guid(d04eb9c554ad44ceab303cecf0c0cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Unity.VisualEffectGraph.Runtime.asmdef using Guid(d04eb9c554ad44ceab303cecf0c0cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8c0d09fc23750b5776531514b766b') in 0.006347 seconds 
-  Import took 0.011182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.281024 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d483526b6a016eb85775110c1e8ce0d') in 0.006262 seconds 
-  Import took 0.012124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.403728 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420932bb4de0e9ebf12dd7c11b0a0186') in 0.002648 seconds 
-  Import took 0.008682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.782664 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fdf4133b22b77bfac83fbc9225e2b9') in 0.003139 seconds 
-  Import took 0.008985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 329.105372 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21363a679786affeeb6e0251c1e2e02') in 0.003200 seconds 
-  Import took 0.008978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.573328 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a0b26bdc286fc9492395e61997372d') in 0.002865 seconds 
-  Import took 0.008290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.633652 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76537e6e63124dc87defde2553ecc7a') in 0.002776 seconds 
-  Import took 0.008331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.656194 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f39448a1b3458151b0e02431c9d41c') in 0.002751 seconds 
-  Import took 0.008355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.517075 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76e064072d08cedaf043ae8b48e9eb3') in 0.002845 seconds 
-  Import took 0.008202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.232389 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041437d6cb3499e7c85ba1474a1f7d09') in 0.002717 seconds 
-  Import took 0.007812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.809963 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0694fec661f3db8e578d53b7abab5e') in 0.002831 seconds 
-  Import took 0.008454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.570366 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b46ac03a14849e5eaae55d9cf7d5c9') in 0.002799 seconds 
-  Import took 0.008242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.154819 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba480f3c66f1167237a6c425bd00355f') in 0.002942 seconds 
-  Import took 0.008536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.424799 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abea45dc9096b49d4f604880d467693') in 0.003011 seconds 
-  Import took 0.008178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.831266 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1306fc2e0e8760095080c480fd01257e') in 0.002733 seconds 
-  Import took 0.007874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.862265 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee9976a4acf44e75ed15a3da0dde130') in 0.002723 seconds 
-  Import took 0.007935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.993295 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a5f6b688f10d1b814c89c024003979') in 0.017951 seconds 
-  Import took 0.023913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.775457 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba01a8361e992ff4fab4a1b75109292') in 0.003992 seconds 
-  Import took 0.009915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.499444 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c782c034d1d1b4185e313a0ba8b4473') in 0.003348 seconds 
-  Import took 0.008724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.233964 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b46b3e73836569fc4c8707975a93f79') in 0.003268 seconds 
-  Import took 0.008542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.074323 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dff22b7b302ea7ac0ffb1719815908b') in 0.003427 seconds 
-  Import took 0.008711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 239.546877 seconds.
-  path: Assets/Shaders/VFX Graph/circulo.png
-  artifactKey: Guid(7df89dffa18213648bea5c09d172ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/circulo.png using Guid(7df89dffa18213648bea5c09d172ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00458c3555c83525d036be79d8bf4bc4') in 0.010090 seconds 
-  Import took 0.015351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.483978 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c02a3507b5b8eff180367cec201a1f') in 0.003763 seconds 
-  Import took 0.009402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.358557 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20abead1af02921aeb37664a834d903') in 0.003138 seconds 
-  Import took 0.008461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.034147 seconds.
-  path: Assets/Shaders/VFX Graph/circulo.png
-  artifactKey: Guid(7df89dffa18213648bea5c09d172ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/circulo.png using Guid(7df89dffa18213648bea5c09d172ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05f52504b0ddeda007c5fe49ac837db') in 0.019484 seconds 
-  Import took 0.024842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.358134 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2b21abd727c57b06d5b969e4303e41') in 0.003461 seconds 
-  Import took 0.008962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.979782 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e740b0c4df561f434bdd8b4260ec223e') in 0.003233 seconds 
-  Import took 0.028990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.033138 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c798ba65a2246d57039dce5615e90a') in 0.003405 seconds 
-  Import took 0.008679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.588158 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac6674741511db4cf64531577668f29') in 0.003184 seconds 
-  Import took 0.008228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.296259 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9811e9b68781f6058afd2b54a0b2a01a') in 0.003831 seconds 
-  Import took 0.009833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.132113 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deec898112f299ef8467671d551d6d9a') in 0.003337 seconds 
-  Import took 0.008799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.702890 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf318f576d0163afe729ac5b7225884') in 0.002833 seconds 
-  Import took 0.008067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.425931 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9458868e56c1b0df307466d0fc5eeab') in 0.003295 seconds 
-  Import took 0.008690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.100867 seconds.
-  path: Assets/Sprites/UI_Formas/Circle.png
-  artifactKey: Guid(ec2ca6042f289714e988ce87f600cd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI_Formas/Circle.png using Guid(ec2ca6042f289714e988ce87f600cd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7d06725416c374da152e9d5e445b49') in 0.013833 seconds 
-  Import took 0.019299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Models/Tree/green-leaves-background.jpg
-  artifactKey: Guid(73337f28b6b98fa499dff647856f88f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Tree/green-leaves-background.jpg using Guid(73337f28b6b98fa499dff647856f88f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a2b115856ea0f0e9296f6fb5115912') in 0.094571 seconds 
-  Import took 0.099000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Fonts/AGENCY.TTF
-  artifactKey: Guid(4ead43d15766d5041bca6d7c5dadd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/AGENCY.TTF using Guid(4ead43d15766d5041bca6d7c5dadd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5565e2b12fef0257c51605c2d01353ff') in 0.233017 seconds 
-  Import took 0.238343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.560884 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a223bb34285a52d22343799230aa8b78') in 0.003617 seconds 
-  Import took 0.009330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.336044 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3d8710862180fc9837842374c4a657') in 0.003179 seconds 
-  Import took 0.008361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.722254 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1659d4cecf723bf66749fc69169fc') in 0.004629 seconds 
-  Import took 0.010542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.181601 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9dd9596ab8acbb2b0e9f066c7f0f5c') in 0.003638 seconds 
-  Import took 0.008948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.256836 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942cbe66d2398f559e23ac55838a5089') in 0.003880 seconds 
-  Import took 0.009413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.555745 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add21ce8ef3044552346f866d4c45124') in 0.004701 seconds 
-  Import took 0.010537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.476221 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f72aca0f95139e1f5e38495010af592') in 0.005237 seconds 
-  Import took 0.011039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.385479 seconds.
-  path: Assets/Sprites/UI_Formas/Triangle.png
-  artifactKey: Guid(c8540e6229a75494997fac9f2634b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI_Formas/Triangle.png using Guid(c8540e6229a75494997fac9f2634b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14440e2ca7ae25d18ac9b96436ce1c01') in 0.041634 seconds 
-  Import took 0.046892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Models/Tree/Trunk.jpg
-  artifactKey: Guid(3d8e92acc90e0ea42b23e0e03a31f74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Tree/Trunk.jpg using Guid(3d8e92acc90e0ea42b23e0e03a31f74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da515e61c4de180da5cf018924e9d35') in 0.071631 seconds 
-  Import took 0.076745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Models/Stone/Textura.png
-  artifactKey: Guid(24d6cc6c8cb0da14999a1bcc2b8f8e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Stone/Textura.png using Guid(24d6cc6c8cb0da14999a1bcc2b8f8e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865a77740318aef826606b980e1c5b17') in 0.075501 seconds 
-  Import took 0.080477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.716445 seconds.
-  path: Assets/Sprites/UI_Formas/Square.png
-  artifactKey: Guid(690c7a068aa8c8f4cb631cb5892e0093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI_Formas/Square.png using Guid(690c7a068aa8c8f4cb631cb5892e0093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e550feacc30a44673bcfe274960fb150') in 0.009542 seconds 
-  Import took 0.014899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.020579 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c12263cfa549d0b0037478bb8491e01') in 0.004243 seconds 
-  Import took 0.009912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.133520 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b7a362a987766b31cf9c0cbf09cfbb') in 0.004097 seconds 
-  Import took 0.009516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.591241 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e3939b3c5ba04f7ff7d493b0e0739') in 0.004065 seconds 
-  Import took 0.009345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.024160 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc6fd46ad5e7c6c71504e480fd0c8e8') in 0.005101 seconds 
-  Import took 0.011397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 211.882079 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ca1c54977b2df31f1c454565c8f79') in 0.005061 seconds 
-  Import took 0.011920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.552499 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb8d0a0affa28f82c144faba560cdda') in 0.004956 seconds 
-  Import took 0.010485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.731633 seconds.
-  path: Assets/Shaders/VFX Graph/circulo2.png
-  artifactKey: Guid(c8b2ac543be83d042a4b9fe4c0971719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/circulo2.png using Guid(c8b2ac543be83d042a4b9fe4c0971719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb711ff92d5ece11bd9370b84ce799ef') in 0.009485 seconds 
-  Import took 0.014573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.852972 seconds.
-  path: Assets/Shaders/VFX Graph/circulo.png
-  artifactKey: Guid(7df89dffa18213648bea5c09d172ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/circulo.png using Guid(7df89dffa18213648bea5c09d172ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8552be141262e60192fea768944b4134') in 0.008458 seconds 
-  Import took 0.013951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.956163 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42a81485f037e4297308aef7154a453') in 0.005152 seconds 
-  Import took 0.010767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.391458 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2d748d76a7c667a5ce339457ed7055') in 0.004945 seconds 
-  Import took 0.010949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 139.055289 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a4fdaeae14625f718ade222f6aaa0e') in 0.005256 seconds 
-  Import took 0.011187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.393347 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c99c7980d363509dd761c231668cb69') in 0.005294 seconds 
-  Import took 0.011159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.373670 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108c447d145e82eea5b055c4a7ba3bcf') in 0.005329 seconds 
-  Import took 0.010969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.786544 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660efaf3876b5e9369e0a1177cfeeb98') in 0.005235 seconds 
-  Import took 0.010694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.982728 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca5165c7611dc3c567b1347ccd6359d') in 0.005222 seconds 
-  Import took 0.010806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.382978 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301dc188408311d8ca9973a9d5a05461') in 0.005613 seconds 
-  Import took 0.011178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.369687 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c202259da7a1093007dd2f0bd7ea8f5f') in 0.006606 seconds 
-  Import took 0.012603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.740866 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674811ca0b2a8f486c4beec4b48ababf') in 0.005553 seconds 
-  Import took 0.011805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.303394 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8377a8f7d5463a5d99dd2d499baf5609') in 0.005535 seconds 
-  Import took 0.010923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.105123 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c9fd1808432bfcfd46885a6b555de') in 0.006289 seconds 
-  Import took 0.011880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.697962 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecae09573bdd7bb3ea25f38a4b0c6767') in 0.005279 seconds 
-  Import took 0.011718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.232887 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06354928b42c22f238fd53efbbfcf5c6') in 0.005443 seconds 
-  Import took 0.011130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.064553 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815ebf2b2da914fa288fdf81f546bd98') in 0.004056 seconds 
-  Import took 0.009454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.809174 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1aa6ecb03b8a12b475fe266a1cb65f') in 0.004338 seconds 
-  Import took 0.009781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.617381 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acde08000f4d65d72efbba8bd7f73df') in 0.004303 seconds 
-  Import took 0.009751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.773638 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fef69ba3344ab30dca9d6b4b7e85d4') in 0.004177 seconds 
-  Import took 0.009595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.644419 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d7aba84720816276fb4e9441debd28') in 0.004817 seconds 
-  Import took 0.010279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.382608 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f51cd343651ba9115ffad84bfea6655') in 0.004182 seconds 
-  Import took 0.009759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.729013 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a56068e149ec5e3526c8656557f9424') in 0.009753 seconds 
-  Import took 0.031155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.168595 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShader.shadergraph
-  artifactKey: Guid(5525953842315764d8c4619b300cc906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShader.shadergraph using Guid(5525953842315764d8c4619b300cc906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1db7664cdaa9291e5819ddb2df2c30') in 0.005463 seconds 
-  Import took 0.011152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 581.947254 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShader.shadergraph
-  artifactKey: Guid(5525953842315764d8c4619b300cc906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShader.shadergraph using Guid(5525953842315764d8c4619b300cc906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7476498310fa7cc0fca5cf1ab6f0feb7') in 0.002911 seconds 
-  Import took 0.008349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 293.941135 seconds.
-  path: Assets/Sprites/Menu/aaa.png
-  artifactKey: Guid(bb932e8bf05a046439aa6ba5bb75487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Menu/aaa.png using Guid(bb932e8bf05a046439aa6ba5bb75487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f0b3dd429039bffe273e25b07eaca7') in 0.077873 seconds 
-  Import took 0.083037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Models/Blur.png
-  artifactKey: Guid(515965511a25a754cac5306ef6bc712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blur.png using Guid(515965511a25a754cac5306ef6bc712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf8d400c3f7cdb81f82652b121cd95') in 0.090367 seconds 
-  Import took 0.095411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Sprites/UI_Formas/Border.png
-  artifactKey: Guid(7162c438a37baec4fa05f99fd6a0b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI_Formas/Border.png using Guid(7162c438a37baec4fa05f99fd6a0b4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492c564d7742de868e1ccbf1720db4fe') in 0.011711 seconds 
-  Import took 0.016774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Sprites/Menu/bbb.png
-  artifactKey: Guid(cd17195883da1af4bb03da1c0baf0900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Menu/bbb.png using Guid(cd17195883da1af4bb03da1c0baf0900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c538c4db80062eae716dd1b86ec6071c') in 0.081611 seconds 
-  Import took 0.086279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 208.087849 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShaderTest.mat
-  artifactKey: Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShaderTest.mat using Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd4283642c24ffd8e6585dd3302a6af') in 0.017913 seconds 
-  Import took 0.023295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 269.624010 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShaderTest.mat
-  artifactKey: Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShaderTest.mat using Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1702fca450c71b61b7cb6f7eee22f7f1') in 0.020747 seconds 
-  Import took 0.026505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 699.297174 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d75583c0ec84e61b4531cc448118b3') in 0.004341 seconds 
-  Import took 0.010214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.271080 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0515775e50df6564696c04dd300a1453') in 0.004344 seconds 
-  Import took 0.009599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.009569 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc4ba72669e70dc3cb0a11b3fc70731') in 0.004087 seconds 
-  Import took 0.009420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.977819 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7627c0dbd21126c7b230f9e2a6458a') in 0.004693 seconds 
-  Import took 0.010132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.831670 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f265a6241f75d94c111ba02c6938b49') in 0.004648 seconds 
-  Import took 0.010204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.014478 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262250d68e6d2e4100497095250cdf52') in 0.005426 seconds 
-  Import took 0.011388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.934177 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee807b9b20e27101a2b109ea56fd5ced') in 0.004740 seconds 
-  Import took 0.011287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.960259 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22de0b6cfb132917dce0e6f21c4a9106') in 0.004912 seconds 
-  Import took 0.010317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.028979 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99f82c1e798bf4c5f4463faa8206d84') in 0.004721 seconds 
-  Import took 0.011317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.968935 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7c502833bd7e3faab8f8884f558ee8') in 0.004645 seconds 
-  Import took 0.010195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.528106 seconds.
-  path: Assets/Sprites/UI_Formas/Rectangle.png
-  artifactKey: Guid(197b1056c3d3ab14fa674fba7f279735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI_Formas/Rectangle.png using Guid(197b1056c3d3ab14fa674fba7f279735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecadec0aa974130b1f7be5628f4d83da') in 0.010921 seconds 
-  Import took 0.016368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003517 seconds.
-  path: Assets/Sprites/Menu/Menu.png
-  artifactKey: Guid(d447a1239dc732444ae34739df35d4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Menu/Menu.png using Guid(d447a1239dc732444ae34739df35d4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f95687455df26438e54309e201697') in 0.110049 seconds 
-  Import took 0.115060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.885100 seconds.
-  path: Assets/Sprites/Menu/Botao_on.png
-  artifactKey: Guid(369d1e15ee80d09448d941980095c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Menu/Botao_on.png using Guid(369d1e15ee80d09448d941980095c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12618d87777d82d03677e37e397348e') in 0.068883 seconds 
-  Import took 0.074023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Sprites/Menu/Botao_off.png
-  artifactKey: Guid(d94dc0d475a0f8b45aaab0b2772bf121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Menu/Botao_off.png using Guid(d94dc0d475a0f8b45aaab0b2772bf121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca0f68774f3c2d870750bb509a64767') in 0.053178 seconds 
-  Import took 0.057678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.995596 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShader.shadergraph
-  artifactKey: Guid(5525953842315764d8c4619b300cc906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShader.shadergraph using Guid(5525953842315764d8c4619b300cc906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddfcc1637a3b6eda348a2be38183bbd') in 0.003039 seconds 
-  Import took 0.008446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.187890 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShaderVFX.shadergraph
-  artifactKey: Guid(a03e536eedc857c4fb1cebc2b8450cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShaderVFX.shadergraph using Guid(a03e536eedc857c4fb1cebc2b8450cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1ef1b3edbb18457e3c6813203808bc') in 0.009122 seconds 
-  Import took 0.014079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.854843 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc86c78ddd7c71667c977ee95bde039') in 0.005073 seconds 
-  Import took 0.010490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.418044 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deec4c4902e7272c640b2c232b6fadf') in 0.004986 seconds 
-  Import took 0.010641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.260198 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe98ac3ff8b40089853628c8519001ce') in 0.005003 seconds 
-  Import took 0.010347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.134059 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4af5cc19b4b100e167f684f74969a6') in 0.004804 seconds 
-  Import took 0.010240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.193579 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615af1d46d19c0e4441515673acf0239') in 0.005056 seconds 
-  Import took 0.010463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.669022 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6a7c3e6a1877e9207d5a18f30e7969') in 0.004708 seconds 
-  Import took 0.010159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.587334 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2508a7bb98e94a7c915a8db210d73ec7') in 0.004833 seconds 
-  Import took 0.010154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.801795 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3093fddb848700d71d18d10c217378e2') in 0.004760 seconds 
-  Import took 0.010225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.951555 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab077db732e25c5e717d074ee2d274a') in 0.004752 seconds 
-  Import took 0.010100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.060072 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99088caacbbba52a5eb1ce20e4872490') in 0.004638 seconds 
-  Import took 0.010068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.401929 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b919310005597c1456a513a4bebfffea') in 0.004526 seconds 
-  Import took 0.009945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.304556 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4151c430c5d80e05d9e0fbe605835ae6') in 0.004764 seconds 
-  Import took 0.010170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.964079 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f9715c4e582f6bbd73ec408b147978') in 0.004671 seconds 
-  Import took 0.009991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.859474 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e191d2ef9d295959a87fe9fe9795caa') in 0.004712 seconds 
-  Import took 0.010033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.583697 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6178343b57134f17227e5bd2235695cb') in 0.004790 seconds 
-  Import took 0.010142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.178606 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cdeb8f7c5786867d332ce46365738a') in 0.004809 seconds 
-  Import took 0.009985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.621505 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05df346bbce51c9e5782af10765209ae') in 0.004719 seconds 
-  Import took 0.011019 seconds .
+  Time since last request: 32.540290 seconds.
+  path: Assets/Scenes/Stage 1.unity
+  artifactKey: Guid(9764659a0aafd2f44896739980136ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage 1.unity using Guid(9764659a0aafd2f44896739980136ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd1cca6421132734cea76117d48c559') in 0.015552 seconds 
+  Import took 0.024710 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002152 seconds.
+Registered in 0.008588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  3.319 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (3319ms)
+		BeginReloadAssembly (288ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2902ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (278ms)
+			SetupTypeCache (1112ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (188ms)
+			SetupLoadedEditorAssemblies (960ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (816ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.0 MB.
-System memory in use after: 224.2 MB.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.7 MB.
+System memory in use after: 223.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4063.
-Total: 3.605100 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.094800 ms MarkObjects: 3.108100 ms  DeleteObjects: 0.036400 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4014.
+Total: 23.906200 ms (FindLiveObjects: 1.900100 ms CreateObjectMapping: 0.712800 ms MarkObjects: 21.253000 ms  DeleteObjects: 0.037500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1331,48 +227,112 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002164 seconds.
+Registered in 0.014683 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
+- Completed reload, in  3.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1036ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (3629ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (3148ms)
+			LoadAssemblies (361ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1105ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (194ms)
+			SetupLoadedEditorAssemblies (1024ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (775ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.7 MB.
+System memory in use after: 224.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4016.
+Total: 5.095500 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.098900 ms MarkObjects: 4.577800 ms  DeleteObjects: 0.023600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 448.275480 seconds.
+  path: Assets/Scenes/Stage 2.unity
+  artifactKey: Guid(a7827c2877a930f4c8c7bb0fe75cc181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage 2.unity using Guid(a7827c2877a930f4c8c7bb0fe75cc181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03e68161f4ee371e67b60d9b6fbd186') in 0.061331 seconds 
+  Import took 0.121021 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2971ms)
+		BeginReloadAssembly (407ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (877ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2365ms)
+			LoadAssemblies (405ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
+			SetupTypeCache (609ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (223ms)
+			SetupLoadedEditorAssemblies (771ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 223.8 MB.
 System memory in use after: 224.0 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4065.
-Total: 3.539900 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.083200 ms MarkObjects: 3.094400 ms  DeleteObjects: 0.017700 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4018.
+Total: 5.995700 ms (FindLiveObjects: 0.762400 ms CreateObjectMapping: 0.280800 ms MarkObjects: 4.915700 ms  DeleteObjects: 0.033700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1386,401 +346,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 94.195321 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a706798f948bf72467ebebd548e28b04') in 0.042705 seconds 
-  Import took 0.066409 seconds .
+  Time since last request: 1676.750297 seconds.
+  path: Assets/Materials/GlowTestMat 1.mat
+  artifactKey: Guid(8d212e229eda9444ba03de468f10df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GlowTestMat 1.mat using Guid(8d212e229eda9444ba03de468f10df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa63d86388b3e71b60e108d40abcdd2') in 0.936874 seconds 
+  Import took 0.948691 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.193469 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1465071158bc6f27681b49bede0e6d05') in 0.004778 seconds 
-  Import took 0.009784 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/MatTest 1.mat
+  artifactKey: Guid(14178182e4f3e004da47ff9e0107b8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MatTest 1.mat using Guid(14178182e4f3e004da47ff9e0107b8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1e9a7b978a43472407a3e773466f37') in 0.096282 seconds 
+  Import took 0.110219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.732571 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498603beb8b5e53eaf3d148389c874af') in 0.005153 seconds 
-  Import took 0.011283 seconds .
+  Time since last request: 0.000313 seconds.
+  path: Assets/Materials/MatTest 2.mat
+  artifactKey: Guid(b898fcfbc6d3b7c44b997fa3e8f58c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MatTest 2.mat using Guid(b898fcfbc6d3b7c44b997fa3e8f58c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f89bad478a15ff68cc5497235140d4') in 0.128831 seconds 
+  Import took 0.144379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.935198 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1cc419bf066137118e5214fb1a7ba1') in 0.004969 seconds 
-  Import took 0.010369 seconds .
+  Time since last request: 0.000722 seconds.
+  path: Assets/Materials/Grama.mat
+  artifactKey: Guid(eb1193e5d3bb1774cac9b7805c121852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grama.mat using Guid(eb1193e5d3bb1774cac9b7805c121852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab66413501ad8581095336099bc80c88') in 0.150059 seconds 
+  Import took 0.160720 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.157822 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb81b724fad2b2ff754f0e862ca05924') in 0.005070 seconds 
-  Import took 0.011085 seconds .
+  Time since last request: 0.000485 seconds.
+  path: Assets/Materials/MatTest.mat
+  artifactKey: Guid(4730fbb5fdfbff74b8f317116ac4d739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MatTest.mat using Guid(4730fbb5fdfbff74b8f317116ac4d739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bb53b456c580100974b1ad3e2238db') in 0.085929 seconds 
+  Import took 0.096537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.980525 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f97e8ede8475574bbb64c5f804772a8') in 0.004775 seconds 
-  Import took 0.010096 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/Materials/MatTempPortal.mat
+  artifactKey: Guid(97780b4af699aab4cbe571f6e174318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MatTempPortal.mat using Guid(97780b4af699aab4cbe571f6e174318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ad257f03e7b2e86ba34678981697ff') in 0.053322 seconds 
+  Import took 0.063567 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.619149 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37761121b34ef13b9ae08e6c47c981fa') in 0.004835 seconds 
-  Import took 0.010159 seconds .
+  Time since last request: 0.000274 seconds.
+  path: Assets/Materials/Particles/MatCSolPrcl.mat
+  artifactKey: Guid(39186d03e75626f4384c8c2c612cd8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Particles/MatCSolPrcl.mat using Guid(39186d03e75626f4384c8c2c612cd8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4a8fb6dab26ab8878f2e076be9fda5') in 0.170941 seconds 
+  Import took 0.185511 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.276870 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95711cc48dc6dabe6ab23e8df5c1827e') in 0.004796 seconds 
-  Import took 0.010242 seconds .
+  Time since last request: 0.000829 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c4f18d11fd7afcbbce0daef807642f') in 0.116070 seconds 
+  Import took 0.141187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.851163 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761248093fc9069d440fe0a445905d00') in 0.004753 seconds 
-  Import took 0.010185 seconds .
+  Time since last request: 0.634740 seconds.
+  path: Assets/Models/Cristal_Sólido.fbx
+  artifactKey: Guid(d00c672898198a94ab68a4e80b5193ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cristal_Sólido.fbx using Guid(d00c672898198a94ab68a4e80b5193ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb504d0badb3f365fd726de31d817108') in 0.530244 seconds 
+  Import took 0.541718 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.587327 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a290d3a3dd0b2c8aa5dc1963be6d7015') in 0.004769 seconds 
-  Import took 0.010069 seconds .
+  Time since last request: 0.000521 seconds.
+  path: Assets/Models/Cristal_Gasoso.fbx
+  artifactKey: Guid(e5e986c2e821085429c4ea83c6bc2696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cristal_Gasoso.fbx using Guid(e5e986c2e821085429c4ea83c6bc2696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4389e90d6d2b718905cf1734becddc14') in 0.150548 seconds 
+  Import took 0.162151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.410525 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cf8c61984daa037ef706fc07db2c54') in 0.005596 seconds 
-  Import took 0.011477 seconds .
+  Time since last request: 0.000355 seconds.
+  path: Assets/Models/Cristal_Antimateria.fbx
+  artifactKey: Guid(d3c2addb8e7fc7948a1d14226f900954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cristal_Antimateria.fbx using Guid(d3c2addb8e7fc7948a1d14226f900954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5d6e47f0f13fabdd53a3de7cb81e6a') in 0.416834 seconds 
+  Import took 0.427913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.511120 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea24c361c339bf5703b15293066ec21') in 0.004806 seconds 
-  Import took 0.010364 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c355c3f0601a239627b403f874388c58') in 0.110791 seconds 
+  Import took 0.118164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.598952 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31560271f5d1e85c995dd9e9b1ab3345') in 0.004908 seconds 
-  Import took 0.010254 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010167997972cda26d5c37375eb33734') in 1.671096 seconds 
+  Import took 1.686012 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.268252 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718366319d8252cb9a47bc0445fe0c40') in 0.004540 seconds 
-  Import took 0.009878 seconds .
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665a3e579d54e14cfeb22e516ba01df1') in 1.587384 seconds 
+  Import took 1.614941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.267658 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eedf17258f01fa1edd3b9c7efb55004') in 0.004803 seconds 
-  Import took 0.010186 seconds .
+  Time since last request: 0.000452 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f71b0dc7a61db028a1136ee884722') in 0.146261 seconds 
+  Import took 0.312258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.339134 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df02818bfa50f693ccf330e33ad1791a') in 0.004799 seconds 
-  Import took 0.010137 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/Materials/Texturas/Materials/Tile_agua.mat
+  artifactKey: Guid(0e32aebffaa88744eb8c087cbf59b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Texturas/Materials/Tile_agua.mat using Guid(0e32aebffaa88744eb8c087cbf59b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4562582d43dd30afb39fc1fec60c8a') in 0.152113 seconds 
+  Import took 0.163809 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.078558 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d19eb65623810c23e82bf124b8d6a04') in 0.004705 seconds 
-  Import took 0.010018 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07443be40a2a649414bf72b9ce44862f') in 0.073691 seconds 
+  Import took 0.087172 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.878155 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0805281e466bfd56d4ed73e116e5055') in 0.004745 seconds 
-  Import took 0.010013 seconds .
+  Time since last request: 0.008576 seconds.
+  path: Assets/Materials/Texturas/New Material.mat
+  artifactKey: Guid(f3e19c57876594747a9f73de0d9d1cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Texturas/New Material.mat using Guid(f3e19c57876594747a9f73de0d9d1cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c40da5a3a51a638182328c48c82dbca') in 0.096027 seconds 
+  Import took 0.113637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.479999 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637f2992680167dbdb2f175f204f78b5') in 0.004777 seconds 
-  Import took 0.010023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.235425 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57f745c0a553b7bcebc6de415d5dcc3') in 0.004671 seconds 
-  Import took 0.010360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.540973 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea3e9d3b40e42cb426b40e421a5a294') in 0.004921 seconds 
-  Import took 0.010482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.644480 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e665686a131bce32abd4f7c1bb117c5') in 0.005132 seconds 
-  Import took 0.010593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.531351 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63366e39e073c960fe34d05bfe5196f') in 0.005233 seconds 
-  Import took 0.010894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 174.855158 seconds.
+  Time since last request: 0.000265 seconds.
   path: Assets/Shaders/Shader Graph/PortalShaderTest.mat
   artifactKey: Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShaderTest.mat using Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb1f0116ad1ebe6e00b8028fe7680c3') in 0.133418 seconds 
-  Import took 0.139326 seconds .
+Start importing Assets/Shaders/Shader Graph/PortalShaderTest.mat using Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78deb1eb48c0ba852dc746154f37153') in 2.021068 seconds 
+  Import took 2.048958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.058816 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c485c118809a4e2c76c4606e9d6b8a74') in 0.004929 seconds 
-  Import took 0.010344 seconds .
+  Time since last request: 0.000593 seconds.
+  path: Assets/Models/Cristal_Liquido.fbx
+  artifactKey: Guid(235cd131cac50d846b1c775a209c0726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cristal_Liquido.fbx using Guid(235cd131cac50d846b1c775a209c0726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9a39cb22178de0f1c65beb788a087a') in 0.267865 seconds 
+  Import took 0.322269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.717898 seconds.
-  path: Assets/Scenes/Stage 1.unity
-  artifactKey: Guid(9764659a0aafd2f44896739980136ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage 1.unity using Guid(9764659a0aafd2f44896739980136ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0332495b71dc45c1503156e0934386f5') in 0.033004 seconds 
-  Import took 0.037950 seconds .
+  Time since last request: 49.948093 seconds.
+  path: Assets/Models
+  artifactKey: Guid(f302c454622458d44af27df5fbb257eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(f302c454622458d44af27df5fbb257eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502a91da8665b0cac96afcd6897bd4f5') in 0.017870 seconds 
+  Import took 0.029835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.361793 seconds.
-  path: Assets/Scenes/TestScene.unity
-  artifactKey: Guid(8bf1100f0c3fda94a90adc2b9fce5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestScene.unity using Guid(8bf1100f0c3fda94a90adc2b9fce5000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedfc95902728aa79bd2d322125a10c3') in 0.029137 seconds 
-  Import took 0.034118 seconds .
+  Time since last request: 0.063265 seconds.
+  path: Assets/Models/Tesseract.prefab
+  artifactKey: Guid(d4177b2d7ef27754593d3dd8653be88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tesseract.prefab using Guid(d4177b2d7ef27754593d3dd8653be88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffebf650b67753ec43487b2827b5f222') in 0.162549 seconds 
+  Import took 0.174790 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.611649 seconds.
-  path: Assets/Scenes/Stage 1.unity
-  artifactKey: Guid(9764659a0aafd2f44896739980136ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage 1.unity using Guid(9764659a0aafd2f44896739980136ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3055623d5ca6b4a8c6d6bf8bc7e6007c') in 0.001703 seconds 
-  Import took 0.006699 seconds .
+  Time since last request: 3.165091 seconds.
+  path: Assets/Models/Stone
+  artifactKey: Guid(10b11e3a162d2c549bcfdde7456ca373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stone using Guid(10b11e3a162d2c549bcfdde7456ca373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f258f7e227c598824b786a82ead87e14') in 0.052091 seconds 
+  Import took 0.075818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.497294 seconds.
+  path: Assets/Models/Tree
+  artifactKey: Guid(67071226ab6c49e45bf66efdd9217516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tree using Guid(67071226ab6c49e45bf66efdd9217516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0f84d6470f9cf4e6a4150f79b209e6') in 0.068464 seconds 
+  Import took 0.101224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1259.123302 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(a25725099392db241a80b61fe01ab619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(a25725099392db241a80b61fe01ab619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8e926de0f18010440ac18170729bc2') in 0.077922 seconds 
+  Import took 0.085790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2356.880391 seconds.
+  path: Assets/Materials/GlowTestMat.mat
+  artifactKey: Guid(556f0e0965342cb49b590c031a08ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GlowTestMat.mat using Guid(556f0e0965342cb49b590c031a08ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e28d977b70526e13a143d31fec61ac7') in 0.110847 seconds 
+  Import took 0.132887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337377 seconds.
+  path: Assets/Fonts/AGENCY.TTF
+  artifactKey: Guid(4ead43d15766d5041bca6d7c5dadd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/AGENCY.TTF using Guid(4ead43d15766d5041bca6d7c5dadd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6360d612cb68a6ec870e39070361873b') in 0.116927 seconds 
+  Import took 0.124753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Fonts/AGENCY_Bold.TTF
+  artifactKey: Guid(4d04eb8d08df8094ea7ed5f879f38811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/AGENCY_Bold.TTF using Guid(4d04eb8d08df8094ea7ed5f879f38811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6848262d8979a0930ab4c163e518db7e') in 0.050166 seconds 
+  Import took 0.057562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.213416 seconds.
+  path: Assets/Materials/DefaultMat.mat
+  artifactKey: Guid(5da843fcd57ad1140ba4ef81864a0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DefaultMat.mat using Guid(5da843fcd57ad1140ba4ef81864a0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f705a23252d2bc19ab3d05e33eab6c87') in 0.067143 seconds 
+  Import took 0.076380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173476 seconds.
+  path: Assets/Materials/Cloud.mat
+  artifactKey: Guid(573c1d9222ec51441b03e7e3d0acc4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cloud.mat using Guid(573c1d9222ec51441b03e7e3d0acc4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630c1ed0529ae1ae43eb8ddd77bcbd20') in 0.030157 seconds 
+  Import took 0.040107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038413 seconds.
+  path: Assets/Materials/Caverna.mat
+  artifactKey: Guid(c8d6ec606008af34d975581e2d601e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Caverna.mat using Guid(c8d6ec606008af34d975581e2d601e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5b19eac34b15bb88d2e5aee0632248') in 0.077044 seconds 
+  Import took 0.085289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Materials/Caverna_escura.mat
+  artifactKey: Guid(34aec3c0423d7da46b2cfe99427902ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Caverna_escura.mat using Guid(34aec3c0423d7da46b2cfe99427902ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8805aa4c08ed44c2e6a532f80ea9193c') in 0.048021 seconds 
+  Import took 0.055446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/Caverna_Claro.mat
+  artifactKey: Guid(0eedc54cf0595424aa34e0af6f068d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Caverna_Claro.mat using Guid(0eedc54cf0595424aa34e0af6f068d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef21dff731b950d7ad574dcadf848473') in 0.051326 seconds 
+  Import took 0.060533 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002100 seconds.
+Registered in 0.006281 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  2.196 seconds
 Domain Reload Profiling:
-	ReloadAssembly (939ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (2197ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (783ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1879ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (256ms)
+			SetupTypeCache (607ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (680ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (190ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (536ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.0 MB.
-System memory in use after: 224.2 MB.
+System memory in use before: 224.9 MB.
+System memory in use after: 225.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4103.
-Total: 3.553100 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.092500 ms MarkObjects: 3.081100 ms  DeleteObjects: 0.040900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 787.614199 seconds.
-  path: Assets/Materials/Cloud.mat
-  artifactKey: Guid(573c1d9222ec51441b03e7e3d0acc4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cloud.mat using Guid(573c1d9222ec51441b03e7e3d0acc4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cb143ab393965b96f58e2610018019') in 0.143192 seconds 
-  Import took 0.148616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 167.304250 seconds.
-  path: Assets/Materials/Cloud.mat
-  artifactKey: Guid(573c1d9222ec51441b03e7e3d0acc4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cloud.mat using Guid(573c1d9222ec51441b03e7e3d0acc4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716149c34479625aebf61056f82e1c75') in 0.010620 seconds 
-  Import took 0.016159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 273.554625 seconds.
-  path: Assets/Shaders/Shader Graph/PortalShaderTest.mat
-  artifactKey: Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Shader Graph/PortalShaderTest.mat using Guid(debc31f6be612fb43920409f04e11798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f810ec43835428395e191202d09f8cb') in 0.011253 seconds 
-  Import took 0.016987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.082878 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2376bc7e790930df55d1b8825579a4') in 0.007253 seconds 
-  Import took 0.012950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.067056 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3f24de5a282cc4cc2ce2a81dffec46') in 0.004840 seconds 
-  Import took 0.009958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.658181 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df45c40c434d26d110b31eb43f50fcf5') in 0.005733 seconds 
-  Import took 0.012050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.627259 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639fd3bca4dd24027af0feff8ec97edb') in 0.004921 seconds 
-  Import took 0.010107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.535543 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2c04b468426747459c10a2103908b1') in 0.004666 seconds 
-  Import took 0.009877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.516511 seconds.
-  path: Assets/Shaders/VFX Graph/PortalCSolido.vfx
-  artifactKey: Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/VFX Graph/PortalCSolido.vfx using Guid(6ad5d19db24a93a42bcb3579dea868c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3865113cd1acf5d51882cddbb9dd590') in 0.004939 seconds 
-  Import took 0.010788 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (925ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (775ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (254ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.1 MB.
-System memory in use after: 224.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4141.
-Total: 3.797800 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.136100 ms MarkObjects: 3.257600 ms  DeleteObjects: 0.037800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4099.
+Total: 11.122100 ms (FindLiveObjects: 0.483100 ms CreateObjectMapping: 0.645800 ms MarkObjects: 9.922400 ms  DeleteObjects: 0.068500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
