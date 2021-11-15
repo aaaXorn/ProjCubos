@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pickup
+  - Buraco
+  - Retangulo
+  - Parede
   layers:
   - Default
   - TransparentFX

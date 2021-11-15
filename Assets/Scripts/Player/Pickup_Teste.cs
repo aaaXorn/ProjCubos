@@ -20,8 +20,8 @@ public class Pickup_Teste : MonoBehaviour
     int groundLayer;//id da layer
 	
 	[Header("Grab")]
-	[SerializeField] bool grabClose;
-	[SerializeField] bool grabFar;
+	public bool grabClose;
+	[SerializeField] bool grabFar, grabRetangulo;
 	
 	//posição do grab/spawn da mochila
     [SerializeField]
@@ -131,6 +131,13 @@ public class Pickup_Teste : MonoBehaviour
 				GrabTarget.GetComponent<Rigidbody>().velocity = rigid.velocity;
 				//retorna a massa do objeto ao normal
 				GrabTarget.GetComponent<Rigidbody>().mass = 1;
+				
+				//se soltar um retangulo
+				if(grabRetangulo)
+				{
+					GrabTarget.GetComponent<Rigidbody>().isKinematic = true;
+					grabRetangulo = false;
+				}
 			}
 			//pega um objeto se estiver próximo
 			else
@@ -138,7 +145,7 @@ public class Pickup_Teste : MonoBehaviour
 				//gera um raycast, se acertar um objeto da layer layerMask continua
 				if (Physics.Raycast(transform.position - (rayDownMod * Vector3.up), transform.TransformDirection(Vector3.right), out rayHit, raycastDist))
 				{
-					if(rayHit.transform.gameObject.CompareTag("Pickup"))
+					if(rayHit.transform.gameObject.CompareTag("Pickup") || rayHit.transform.gameObject.CompareTag("Retangulo"))
 					{
 						//checa a distância entre o jogador e o objeto atingido
 						hitDist = Vector3.Distance(transform.position, rayHit.point);
@@ -157,6 +164,13 @@ public class Pickup_Teste : MonoBehaviour
 							
 							//diminui a massa do objeto para não bugar
 							GrabTarget.GetComponent<Rigidbody>().mass = 0.01f;
+							
+							//se for o retangulo
+							if(rayHit.transform.gameObject.CompareTag("Retangulo"))
+							{
+								GrabTarget.GetComponent<Rigidbody>().isKinematic = false;
+								grabRetangulo = true;
+							}
 							
 							//Grab(rayHit.collider.gameObject);
 							Debug.Log("perto");

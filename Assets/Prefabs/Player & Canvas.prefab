@@ -269,7 +269,7 @@ MonoBehaviour:
   Square: {fileID: 5083808605663906217, guid: da59f229954a074489dfb66b98a7e129, type: 3}
   Circle: {fileID: 0}
   Rectangle: {fileID: 2603938507764634151, guid: 97a21c19f455f7a4c847414bbcc14518, type: 3}
-  Triangle: {fileID: 0}
+  Triangle: {fileID: 2658376016176789896, guid: 5538d7661fca90a49b549bf3446cd540, type: 3}
 --- !u!136 &897615618040925131
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 897615618758510696}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
