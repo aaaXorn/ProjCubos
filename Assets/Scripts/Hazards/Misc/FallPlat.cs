@@ -35,7 +35,7 @@ public class FallPlat : MonoBehaviour
 		//faz a plataforma desaparecer
 		if(other.gameObject.layer == LayerMask.NameToLayer("Ground"))
 		{
-			if((transform.position.y - transform.localScale.y/2)> other.transform.position.y)	
+			if(transform.position.y > other.transform.position.y)	
 				StartCoroutine("MeshFade");
 		}
 	}
