@@ -18,9 +18,9 @@ public class MovingPlat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		GoToA += transform.position;
+		GoToB = transform.position - GoToA;
 		
-        GoToB = transform.position - GoToA;
+		GoToA += transform.position;
     }
 
     // Update is called once per frame
@@ -30,8 +30,8 @@ public class MovingPlat : MonoBehaviour
 		{
 			//move o objeto pro A
 			transform.position = Vector3.MoveTowards(transform.position, 
-																GoToA,
-																speed);
+													 GoToA,
+													 speed);
 			
 			var distance = Vector3.Distance(GoToA, transform.position);
 			
@@ -44,8 +44,8 @@ public class MovingPlat : MonoBehaviour
 		{
 			//move o objeto pro B
 			transform.position = Vector3.MoveTowards(transform.position, 
-																GoToB,
-																speed);
+													 GoToB,
+													 speed);
 			
 			var distance = Vector3.Distance(GoToB, transform.position);
 			

@@ -190,6 +190,12 @@ public class Pickup_Teste : MonoBehaviour
 							}
 						}
 					}
+					//bugfix pra ser possivel tirar um item da mochila se o raio bate na parede
+					else
+					{
+						if(grabFar)
+							TiraMochila();
+					}
 				}
 				//se o raio erra
 				else

@@ -112,6 +112,7 @@ MonoBehaviour:
   timer: 0
   color: 0
   shakeForce: 0.1
+  FallPlatName: FallPlat
 --- !u!54 &3008250469217290505
 Rigidbody:
   m_ObjectHideFlags: 0

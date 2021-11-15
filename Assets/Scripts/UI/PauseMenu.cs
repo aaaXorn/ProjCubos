@@ -10,7 +10,7 @@ public class PauseMenu : MonoBehaviour
 	[SerializeField] int currentLevel;
 	
 	//imagens da UI
-	[SerializeField] Image CSolidoUI;
+	[SerializeField] Image CSolidoUI, CLiquidoUI;
 	
 	public bool paused = false;//se o jogo está pausado
 	[SerializeField] GameObject PauseObj;//tela de menu do pause;
@@ -31,6 +31,10 @@ public class PauseMenu : MonoBehaviour
 		if(currentLevel > 1)
 		{
 			CSolidoUI.enabled = true;
+		}
+		if(currentLevel > 2)
+		{
+			CLiquidoUI.enabled = true;
 		}
     }
 
