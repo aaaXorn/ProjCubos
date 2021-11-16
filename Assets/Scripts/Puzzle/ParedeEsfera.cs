@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class ParedeEsfera : MonoBehaviour
 {
+	[SerializeField] GameObject ParedeDust;
+	
 	public void Activate()
 	{
-		//efeitos especiais
+		//instantiate das partículas
+		var Prtcl = Instantiate(ParedeDust, transform.position, transform.rotation);
 		
 		Destroy(gameObject);
 	}

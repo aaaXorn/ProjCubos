@@ -108,3 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd32a8da4b902d4380571aa66146c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParedeDust: {fileID: 5823968776231656611, guid: ced0f95c1be797241b3da677c38c2775, type: 3}
