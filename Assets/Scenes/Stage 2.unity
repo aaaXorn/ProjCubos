@@ -10055,7 +10055,7 @@ GameObject:
   - component: {fileID: 1150939661}
   - component: {fileID: 1150939660}
   - component: {fileID: 1150939659}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FallDmg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
