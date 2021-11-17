@@ -2077,6 +2077,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.9
       objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.z
+      value: 4.5638237
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: 0.29660988
+      objectReference: {fileID: 0}
     - target: {fileID: 7639784083733924896, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -4730,6 +4738,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.559
       objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.x
+      value: 4.349388
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.x
+      value: 0.05398178
+      objectReference: {fileID: 0}
     - target: {fileID: 7254026938539435854, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: fallTimer
       value: 0.2
@@ -5112,6 +5128,14 @@ PrefabInstance:
     - target: {fileID: 2277455833859156425, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.x
+      value: 1.7045174
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.x
+      value: 0.032102585
       objectReference: {fileID: 0}
     - target: {fileID: 7639784083733924896, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_RootOrder
@@ -6780,6 +6804,14 @@ PrefabInstance:
     - target: {fileID: 2277455833859156425, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.z
+      value: 4.5523148
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: -0.56562805
       objectReference: {fileID: 0}
     - target: {fileID: 7254026938539435854, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: fallTimer
@@ -8720,6 +8752,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.725
       objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.z
+      value: 2.9106197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: -0.21519566
+      objectReference: {fileID: 0}
     - target: {fileID: 7639784083733924896, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -9865,7 +9905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_Size.z
-      value: 1.2
+      value: 4.5759134
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: 0.6947354
       objectReference: {fileID: 0}
     - target: {fileID: 7254026938539435854, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: fallTimer
@@ -12598,7 +12642,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_Size.z
-      value: 1.2
+      value: 4.5005255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: -0.42463863
       objectReference: {fileID: 0}
     - target: {fileID: 7254026938539435854, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: fallTimer
@@ -15406,6 +15454,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.519
       objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.z
+      value: 4.5882015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: 1.0373907
+      objectReference: {fileID: 0}
     - target: {fileID: 7254026938539435854, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: fallTimer
       value: 0.2
@@ -15976,6 +16032,14 @@ PrefabInstance:
     - target: {fileID: 2277455833859156425, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Size.x
+      value: 1.1506996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.x
+      value: 0.07534981
       objectReference: {fileID: 0}
     - target: {fileID: 7639784083733924896, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_RootOrder
@@ -24629,7 +24693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: m_Size.z
-      value: 1.2
+      value: 4.3699613
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479948509237702890, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
+      propertyPath: m_Center.z
+      value: -1.0158412
       objectReference: {fileID: 0}
     - target: {fileID: 7254026938539435854, guid: ea373f1eb3f4f0748af2e31b6f994ed0, type: 3}
       propertyPath: fallTimer
