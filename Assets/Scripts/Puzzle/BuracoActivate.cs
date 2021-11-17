@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BuracoActivate : MonoBehaviour
 {
+	[SerializeField] BuracoWall BW;//script da parede
+	
 	[SerializeField] GameObject Piramide;//child object de piramide
 	
 	bool start;//se o movimento começou
@@ -34,16 +36,6 @@ public class BuracoActivate : MonoBehaviour
 	{
 		var distance = Vector3.Distance(transform.position, Piramide.transform.position);
 		
-		//quando a piramide chega no alvo
-		if(distance <= speed)
-		{
-			Piramide.transform.position = transform.position;
-			
-			//faz algo
-			
-			StopCoroutine("MovePiramide");
-		}
-		
 		//enquanto a piramide não alcançar o alvo
 		while(distance > speed)
 		{
@@ -52,7 +44,20 @@ public class BuracoActivate : MonoBehaviour
 															  transform.position,
 															  speed);
 			
+			distance = Vector3.Distance(transform.position, Piramide.transform.position);
+			
 			yield return null;
+		}
+		
+		//quando a piramide chega no alvo
+		if(distance <= speed)
+		{
+			Piramide.transform.position = transform.position;
+			
+			if(BW)
+				BW.Activate();
+			
+			StopCoroutine("MovePiramide");
 		}
 	}
 }

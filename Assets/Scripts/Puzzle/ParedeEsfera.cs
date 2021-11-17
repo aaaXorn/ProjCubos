@@ -9,7 +9,7 @@ public class ParedeEsfera : MonoBehaviour
 	public void Activate()
 	{
 		//instantiate das partículas
-		var Prtcl = Instantiate(ParedeDust, transform.position, transform.rotation);
+		Instantiate(ParedeDust, transform.position, transform.rotation);
 		
 		Destroy(gameObject);
 	}

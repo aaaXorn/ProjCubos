@@ -10453,6 +10453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9201109009668148117, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68b5895ac75f4104e8d2d1cbb8790211, type: 2}
     - target: {fileID: -8679921383154817045, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10509,10 +10513,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7108034681543483413, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68b5895ac75f4104e8d2d1cbb8790211, type: 2}
     - target: {fileID: 919132149155446097, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
       propertyPath: m_Name
       value: Cristal_Liquido
       objectReference: {fileID: 0}
+    - target: {fileID: 4442662505367926514, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68b5895ac75f4104e8d2d1cbb8790211, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
 --- !u!1 &1230071854

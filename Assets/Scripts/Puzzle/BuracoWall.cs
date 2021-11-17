@@ -13,27 +13,19 @@ public class BuracoWall : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        MoveTo += transform.position;
     }
 	
 	public void Activate()
 	{
 		buracoSolved++;
-		if(buracoSolved == buracoTotal)
+		if(buracoSolved >= buracoTotal)
 			StartCoroutine("MoveWall");
 	}
 
     IEnumerator MoveWall()
 	{
 		var distance = Vector3.Distance(MoveTo, transform.position);
-		
-		//quando a parede chega no alvo
-		if(distance <= speed)
-		{
-			transform.position = MoveTo;
-			
-			StopCoroutine("MoveWall");
-		}
 		
 		//enquanto a parede não alcançar o alvo
 		while(distance > speed)
@@ -43,7 +35,17 @@ public class BuracoWall : MonoBehaviour
 													 MoveTo,
 													 speed);
 			
+			distance = Vector3.Distance(MoveTo, transform.position);
+			
 			yield return null;
+		}
+		
+		//quando a parede chega no alvo
+		if(distance <= speed)
+		{
+			transform.position = MoveTo;
+			
+			StopCoroutine("MoveWall");
 		}
 	}
 }

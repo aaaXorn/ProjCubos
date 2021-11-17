@@ -6,7 +6,7 @@ public class GravSwitch : MonoBehaviour
 {
 	public bool change;
 	
-	[Header("Grav Padrão: Y = -10")]
+	[Header("Grav Padrão: Y = -9.81")]
 	public Vector3 gravDir;
 	
     // Start is called before the first frame update

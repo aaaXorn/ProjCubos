@@ -14,10 +14,10 @@ PrefabInstance:
     - target: {fileID: 258165021908721554, guid: 5f2544e34adff7b4c8e1f8823a5cba50, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -5857886671465511977, guid: 235cd131cac50d846b1c775a209c0726, type: 3}
+      objectReference: {fileID: 2100000, guid: 68b5895ac75f4104e8d2d1cbb8790211, type: 2}
     - target: {fileID: 1423829892850689440, guid: 5f2544e34adff7b4c8e1f8823a5cba50, type: 3}
       propertyPath: m_Name
-      value: CLiquidoParticle
+      value: CLiquidoParticle Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1423829892850689440, guid: 5f2544e34adff7b4c8e1f8823a5cba50, type: 3}
       propertyPath: m_IsActive
