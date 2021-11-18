@@ -66,8 +66,18 @@ public class Menu : MonoBehaviour
 			volSlider.value = SG.mainVolume;
 			
 			//língua
-			SetLanguage(SG.language);
-			langDropdown.value = SG.language;
+			switch (SG.language)
+			{
+				case "portugues":
+				SetLanguage(1);
+				langDropdown.value = 1;
+				break;
+				
+				default://english
+				SetLanguage(0);
+				langDropdown.value = 0;
+				break;
+			}
 		}
 	
 		//setta a resolução quando o jogo começa
@@ -198,7 +208,20 @@ public class Menu : MonoBehaviour
 		
 		public void SetLanguage(int language)
 		{
-			SG.language = language;
+			switch(language)
+			{
+				case 0:
+				SG.language = "english";
+				break;
+				
+				case 1:
+				SG.language = "portugues";
+				break;
+				
+				default:
+				SG.language = "english";
+				break;
+			}
 			
 			ML.LoadText();
 		}
