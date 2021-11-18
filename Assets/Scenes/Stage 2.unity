@@ -11383,7 +11383,6 @@ MonoBehaviour:
   ST: {fileID: 2091794511}
   SG: {fileID: 2091794510}
   nextScene: MainMenu
-  currLvl: 2
 --- !u!65 &1332659499
 BoxCollider:
   m_ObjectHideFlags: 0
