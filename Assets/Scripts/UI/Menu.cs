@@ -10,16 +10,20 @@ public class Menu : MonoBehaviour
 {
 	[SerializeField] SaveGame SG;
 	
+	[SerializeField] MenuLanguage ML;
+	
 	//script de transição
 	[SerializeField] SceneTransition ST;
 	//mixer de audio
 	[SerializeField] AudioMixer audioM;
 	
-	//objeto com as configurações
-	[SerializeField] GameObject OptionsObj;
+	//objeto com as configurações, objeto com as opções de nível
+	[SerializeField] GameObject OptionsObj, LoadObj;
+	//botões de load
+	[SerializeField] GameObject BtLvl2;
 	
 	//objetos de UI das opções
-	[SerializeField] Dropdown graphicsDropdown, resDropdown;
+	[SerializeField] Dropdown graphicsDropdown, resDropdown, langDropdown;
 	[SerializeField] Toggle fscreenToggle;
 	[SerializeField] Slider volSlider;
 	
@@ -28,6 +32,10 @@ public class Menu : MonoBehaviour
 	
     void Start()
     {
+		//arruma quais níveis o jogador pode loadar
+		if(SG.levelsUnlocked >= 2)
+			BtLvl2.SetActive(true);
+		
 		//coloca as resoluções no array
         resolutions = Screen.resolutions;
 		
@@ -56,6 +64,10 @@ public class Menu : MonoBehaviour
 			//volume
 			VolumeSlider(SG.mainVolume);
 			volSlider.value = SG.mainVolume;
+			
+			//língua
+			SetLanguage(SG.language);
+			langDropdown.value = SG.language;
 		}
 	
 		//setta a resolução quando o jogo começa
@@ -100,17 +112,40 @@ public class Menu : MonoBehaviour
 		ST.Fade(false, "Stage 1");
 	}
 	
+	#region load
+	
 	public void SelectStage()
 	{
+		//desabilita o OptionsObj
+		if(OptionsObj.activeSelf)
+			OptionsObj.SetActive(false);
+		
+		//abre/fecha as opções de load
+		LoadObj.SetActive(!LoadObj.activeSelf);
+		
 		//abre a seleção de stages
 			//transição
 			//nível escolhido
 	}
 	
+	public void LoadStage(int stage)
+	{
+		SG.Save();
+		
+		//abre o nível escolhido
+		ST.Fade(false, "Stage " + stage);
+	}
+	
+	#endregion
+	
 	#region options
 	
 	public void Options()
 	{
+		//desabilita o LoadObj
+		if(LoadObj.activeSelf)
+			LoadObj.SetActive(false);
+		
 		//abre/fecha as configurações
 		OptionsObj.SetActive(!OptionsObj.activeSelf);
 	}
@@ -160,7 +195,14 @@ public class Menu : MonoBehaviour
 			
 			Debug.Log("Resolution: " + res.width + "x" + res.height);
 		}
-	
+		
+		public void SetLanguage(int language)
+		{
+			SG.language = language;
+			
+			ML.LoadText();
+		}
+		
 	#endregion
 	
 	public void Exit()
