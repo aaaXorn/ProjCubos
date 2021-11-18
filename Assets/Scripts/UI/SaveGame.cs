@@ -10,8 +10,8 @@ public class SaveGame : MonoBehaviour
 	public static SaveGame instance {get; private set;}//instância do SaveGame
 	string path;//local do arquivo de save
 	
-	//língua do texto do jogo
-	public string language;
+	//língua do texto do jogo, 0 english 1 portugues
+	public int language;
 	
 	//níveis que o player pode jogar com Load Level
 	public int levelsUnlocked;
@@ -87,7 +87,7 @@ public class SaveGame : MonoBehaviour
 	[Serializable]
 	class SaveData
 	{
-		public string language;
+		public int language;
 		public int levelsUnlocked;
 		public int graphicQuality;
 		public bool fullScreen;
