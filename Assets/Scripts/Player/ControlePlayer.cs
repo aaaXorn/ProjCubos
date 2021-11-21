@@ -40,6 +40,9 @@ public class ControlePlayer : MonoBehaviour
 	
 	[SerializeField] PlayerHealth PH;//script de HP
 	
+	[Header("Audio")]
+	[SerializeField] AudioSource AS_walk;
+	
 	//setta variáveis
     void Start()
     {
@@ -70,6 +73,16 @@ public class ControlePlayer : MonoBehaviour
 		}
 		//debug: desenha o Raycast na tela
 		Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * raycastDist, Color.blue);
+		
+		//sound effect do player andando
+		if(!AS_walk.isPlaying && xInput != 0 && zInput != 0)
+		{
+			AS_walk.Play();
+		}
+		else if(AS_walk.isPlaying && xInput == 0 && zInput == 0)
+		{
+			AS_walk.Stop();
+		}
     }
 	
 	//movimentação

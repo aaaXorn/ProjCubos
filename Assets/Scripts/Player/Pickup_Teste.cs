@@ -43,6 +43,9 @@ public class Pickup_Teste : MonoBehaviour
 	//game objects das formas
 	[SerializeField] GameObject Square, Circle, Rectangle, Triangle;
 	
+	[Header("Audio")]
+	[SerializeField] AudioSource AS_grab;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -180,6 +183,9 @@ public class Pickup_Teste : MonoBehaviour
 						{
 							if(!grabFar)
 							{
+								//sound effect de entrar na mochila
+								AS_grab.Play();
+								
 								//coloca o obj na mochila
 								Mochila();
 							}
