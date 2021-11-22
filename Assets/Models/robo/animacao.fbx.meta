@@ -41,7 +41,7 @@ ModelImporter:
     second: WalkEndGrab
   - first:
       74: -6355271318291054777
-    second: GrabStart
+    second: GrabRelease
   - first:
       74: -8080669533760709901
     second: GrabPlace (1)
@@ -53,7 +53,10 @@ ModelImporter:
     second: Damage
   - first:
       74: -4485860722603500327
-    second: GrabPlace
+    second: GrabPickup
+  - first:
+      74: -6239635773854200062
+    second: GrabPlacement
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -144,7 +147,7 @@ ModelImporter:
       name: WalkStart
       takeName: Take 001
       internalID: 0
-      firstFrame: 50
+      firstFrame: 51
       lastFrame: 70
       wrapMode: 0
       orientationOffsetY: 0
@@ -173,8 +176,8 @@ ModelImporter:
       name: Walk
       takeName: Take 001
       internalID: 0
-      firstFrame: 70
-      lastFrame: 86
+      firstFrame: 71
+      lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -202,8 +205,8 @@ ModelImporter:
       name: WalkEnd
       takeName: Take 001
       internalID: 0
-      firstFrame: 86
-      lastFrame: 106
+      firstFrame: 91
+      lastFrame: 105
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -231,7 +234,7 @@ ModelImporter:
       name: Jump
       takeName: Take 001
       internalID: 0
-      firstFrame: 124
+      firstFrame: 125
       lastFrame: 145
       wrapMode: 0
       orientationOffsetY: 0
@@ -260,8 +263,8 @@ ModelImporter:
       name: JumpFall
       takeName: Take 001
       internalID: 0
-      firstFrame: 144
-      lastFrame: 168
+      firstFrame: 146
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -289,8 +292,8 @@ ModelImporter:
       name: TiraMochila
       takeName: Take 001
       internalID: 0
-      firstFrame: 184
-      lastFrame: 228
+      firstFrame: 185
+      lastFrame: 225
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -318,7 +321,7 @@ ModelImporter:
       name: IdleGrab
       takeName: Take 001
       internalID: 0
-      firstFrame: 244
+      firstFrame: 245
       lastFrame: 275
       wrapMode: 0
       orientationOffsetY: 0
@@ -347,7 +350,7 @@ ModelImporter:
       name: WalkStartGrab
       takeName: Take 001
       internalID: 0
-      firstFrame: 291
+      firstFrame: 295
       lastFrame: 310
       wrapMode: 0
       orientationOffsetY: 0
@@ -376,8 +379,8 @@ ModelImporter:
       name: WalkGrab
       takeName: Take 001
       internalID: 0
-      firstFrame: 310
-      lastFrame: 311
+      firstFrame: 311
+      lastFrame: 320
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -405,7 +408,7 @@ ModelImporter:
       name: WalkEndGrab
       takeName: Take 001
       internalID: 0
-      firstFrame: 310
+      firstFrame: 321
       lastFrame: 335
       wrapMode: 0
       orientationOffsetY: 0
@@ -431,11 +434,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: GrabStart
+      name: GrabRelease
       takeName: Take 001
       internalID: 0
-      firstFrame: 335
-      lastFrame: 355
+      firstFrame: 336
+      lastFrame: 354
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -460,11 +463,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: GrabPlace
+      name: GrabPickup
       takeName: Take 001
       internalID: 0
       firstFrame: 355
-      lastFrame: 388
+      lastFrame: 385
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -489,11 +492,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: GrabPlace (1)
+      name: GrabPlacement
       takeName: Take 001
       internalID: 0
-      firstFrame: 403
-      lastFrame: 451
+      firstFrame: 405
+      lastFrame: 450
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -521,8 +524,8 @@ ModelImporter:
       name: Damage
       takeName: Take 001
       internalID: 0
-      firstFrame: 466
-      lastFrame: 499
+      firstFrame: 470
+      lastFrame: 500
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

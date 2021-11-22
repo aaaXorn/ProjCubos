@@ -40,6 +40,8 @@ public class ControlePlayer : MonoBehaviour
 	
 	[SerializeField] PlayerHealth PH;//script de HP
 	
+	[SerializeField] Animator anim;
+	
 	[Header("Audio")]
 	[SerializeField] AudioSource AS_walk;
 	
@@ -74,13 +76,23 @@ public class ControlePlayer : MonoBehaviour
 		//debug: desenha o Raycast na tela
 		Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * raycastDist, Color.blue);
 		
-		//sound effect do player andando
-		if(!AS_walk.isPlaying && xInput != 0 && zInput != 0)
+		//animação e sound effect do player andando
+		//andando
+		if(!AS_walk.isPlaying && (xInput != 0 || zInput != 0))
 		{
+			//animação
+			anim.SetBool("Walk", true);
+			
+			//sound effect
 			AS_walk.Play();
 		}
-		else if(AS_walk.isPlaying && xInput == 0 && zInput == 0)
+		//parando
+		else if(AS_walk.isPlaying && (xInput == 0 && zInput == 0))
 		{
+			//animação
+			anim.SetBool("Walk", false);
+			
+			//sound effect
 			AS_walk.Stop();
 		}
     }
@@ -113,6 +125,10 @@ public class ControlePlayer : MonoBehaviour
 			{
 				currentJumps = 0;//reseta os pulos feitos
 			}
+			
+			//animações
+			anim.SetBool("Grounded", grounded);
+			anim.SetFloat("YSpd", rigid.velocity.y);
 		}
 	}
 	
@@ -125,6 +141,9 @@ public class ControlePlayer : MonoBehaviour
 	//pulo
 	IEnumerator ApplyJump()
 	{
+		//animação
+		anim.SetTrigger("Jump");
+		
 		//força do pulo
 		Jump(jumpForce, jumpFM);
 		

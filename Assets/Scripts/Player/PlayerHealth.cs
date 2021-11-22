@@ -21,6 +21,8 @@ public class PlayerHealth : MonoBehaviour
 	//knockback
 	[SerializeField] float damageKB;
 	
+	[SerializeField] Animator anim;
+	
 	//muda o HP do player
     public void ChangeHP(float health, Vector3 ForceOrigin)
 	{
