@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -178,7 +178,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -356,9 +356,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 218}
-    m_SelectedIDs: f4500000
-    m_LastClickedID: 20724
-    m_ExpandedIDs: 00000000ea500000ec500000ee500000f0500000f2500000f4500000f6500000f850000000ca9a3b
+    m_SelectedIDs: 34570000
+    m_LastClickedID: 22324
+    m_ExpandedIDs: 000000002a5700002c5700002e570000305700003257000034570000365700003857000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea500000ec500000ee500000f0500000f2500000f4500000f6500000f8500000
+    m_ExpandedIDs: 000000002a5700002c5700002e5700003057000032570000345700003657000038570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,23 +507,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2520000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9663feff28f1ffff9cf4ffff9af8ffff50fbffff
+      m_SelectedIDs: 54670000
+      m_LastClickedID: 26452
+      m_ExpandedIDs: 60ceffff6aedffff50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Light Probe Group
-        m_OriginalName: Light Probe Group
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2916
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -45.243225, y: -25.061363, z: -77.197815}
+    m_Target: {x: -38.971367, y: 13.872108, z: 23.271486}
     speed: 2
-    m_Value: {x: -45.243225, y: -25.061363, z: -77.197815}
+    m_Value: {x: -38.971367, y: 13.872108, z: 23.271486}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,20 +618,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.016309224, y: 0.96064126, z: -0.27114794, w: 0.07216853}
+    m_Target: {x: -0.4073645, y: 0.5983251, z: -0.49322477, w: -0.48446605}
     speed: 2
-    m_Value: {x: 0.009568643, y: 0.9624295, z: -0.26688534, w: 0.04909318}
+    m_Value: {x: -0.40843853, y: 0.59628576, z: -0.4930381, w: -0.4842878}
   m_Size:
-    m_Target: 75.17149
+    m_Target: 38.87958
     speed: 2
-    m_Value: 71.93444
+    m_Value: 38.87958
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.9400301
+    m_SpeedNormalized: 0.97
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -715,11 +715,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1098
-      height: 634
+      height: 655
     m_Scale: {x: 0.571875, y: 0.571875}
-    m_Translation: {x: 549, y: 317}
+    m_Translation: {x: 549, y: 327.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -727,9 +727,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960.00006
-      y: -554.31696
+      y: -572.6776
       width: 1920.0001
-      height: 1108.6339
+      height: 1145.3552
     m_MinimalGUI: 1
   m_defaultScale: 0.571875
   m_LastWindowPixelSize: {x: 1098, y: 655}
