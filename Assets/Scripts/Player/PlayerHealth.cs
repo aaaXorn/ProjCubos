@@ -31,6 +31,9 @@ public class PlayerHealth : MonoBehaviour
 			//se o player estiver vivo
 			if(!dead)
 			{
+				if(health > 0)
+					anim.SetTrigger("Damage");
+				
 				//soma o HP com health, aumentando ou diminuindo o valor
 				HP -= health;
 				//distância com direção
