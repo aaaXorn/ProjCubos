@@ -23,6 +23,21 @@ public class PlayerHealth : MonoBehaviour
 	
 	[SerializeField] Animator anim;
 	
+	[Header("Checkpoint")]
+	[SerializeField] bool hasCheckpoint;
+	public static bool checkpoint;
+	[SerializeField] Vector3 CheckpointPos;
+	
+	void Awake()
+	{
+		if(hasCheckpoint && checkpoint)
+		{
+			transform.position = CheckpointPos;
+			
+			checkpoint = false;
+		}
+	}
+	
 	//muda o HP do player
     public void ChangeHP(float health, Vector3 ForceOrigin)
 	{

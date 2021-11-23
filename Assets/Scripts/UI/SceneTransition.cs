@@ -40,7 +40,7 @@ public class SceneTransition : MonoBehaviour
 		while(timer < 1)
 		{
 			//timer
-			timer += Time.unscaledDeltaTime / 2;//dividido pro fade não acontecer instantaneamente
+			timer += Time.unscaledDeltaTime;//dividido pro fade não acontecer instantaneamente
 			//if(fadeIn) color = (1-timer); else color = timer;
 			color = fadeIn ? (1 - timer) : timer;
 			//setta a transparência, causando o efeito de fade
