@@ -207,10 +207,13 @@ MonoBehaviour:
   walkSpd: 6
   runSpd: 8
   currSpd: 0
-  jumpForce: 17000
+  jumpForce: 0
+  maxJumpForce: 17500
+  tapJumpForce: 14500
   jumpFM: 0
   currentJumps: 0
   maxJumps: 1
+  jumpTimer: 0
   jumping: 0
   sprintInput: 0
   xInput: 0

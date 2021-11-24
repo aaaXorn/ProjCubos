@@ -12,9 +12,12 @@ public class ControlePlayer : MonoBehaviour
 	
 	[Header("Pulo")]
 	[SerializeField] float jumpForce;//força do pulo
+	[SerializeField] float maxJumpForce;//força do pulo carregado
+	[SerializeField] float tapJumpForce;//força do tap jump
 	[SerializeField] ForceMode jumpFM;//modo da força do pulo
 	[SerializeField] int currentJumps;//pulos feitos
 	[SerializeField] int maxJumps;//número de pulos máximo
+	[SerializeField] float jumpTimer;
 	
 	[Header("Inputs")]
 	[SerializeField] bool jumping;//input de pulo
@@ -117,9 +120,28 @@ public class ControlePlayer : MonoBehaviour
 			//se o player pode pular
 			if(jumping && jumpStart && (grounded || (maxJumps > currentJumps)))
 			{
+				jumpTimer += Time.deltaTime;
+				
+				if(jumpTimer >= 0.25f)
+				{
+					jumpTimer = 0;
+					
+					jumpForce = maxJumpForce;
+					
+					//inicia o pulo
+					StartCoroutine(ApplyJump());
+				}
+			}
+			else if(!jumping && jumpTimer > 0)
+			{
+				jumpTimer = 0;
+				
+				jumpForce = tapJumpForce;
+				
 				//inicia o pulo
 				StartCoroutine(ApplyJump());
 			}
+			
 			//se o player está no chão
 			if(grounded)
 			{
