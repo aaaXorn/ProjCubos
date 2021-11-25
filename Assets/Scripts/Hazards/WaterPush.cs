@@ -28,20 +28,20 @@ public class WaterPush : MonoBehaviour
 		otherRigid = obj.gameObject.GetComponent<Rigidbody>();
 		
 		//aplicação da força da água
-		if((obj.gameObject.transform.position.y - transform.position.y) < floatPos)
-		{
+		//if((obj.gameObject.transform.position.y - transform.position.y) < floatPos)
+		//{
 			if(otherRigid != null)
 			{
 				otherRigid.AddForce(Force);
 			}
-		}
-		else
-		{
-			if(otherRigid != null)
-			{
+		//}
+		//else
+		//{
+		//	if(otherRigid != null)
+		//	{
 				//se acima de floatPos, força Y é diminuída
-				otherRigid.AddForce(Force.x, Force.y/2, Force.z);
-			}
-		}
+		//		otherRigid.AddForce(Force.x, Force.y/2, Force.z);
+		//	}
+		//}
 	}
 }
