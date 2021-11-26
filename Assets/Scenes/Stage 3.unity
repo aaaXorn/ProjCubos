@@ -2652,7 +2652,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3345,6 +3345,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 516333439}
     m_Modifications:
+    - target: {fileID: 8375937394666849425, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
     - target: {fileID: 8375937394666849427, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
       propertyPath: m_Name
       value: Cube (6)
@@ -5837,7 +5841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752154573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 11.7, z: 0}
+  m_LocalPosition: {x: 0, y: -37.2, z: 0}
   m_LocalScale: {x: 533.2546, y: 1, z: 533.2546}
   m_Children: []
   m_Father: {fileID: 516333439}
@@ -9880,7 +9884,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11277,6 +11281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 516333439}
     m_Modifications:
+    - target: {fileID: 8375937394666849425, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
     - target: {fileID: 8375937394666849427, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
       propertyPath: m_Name
       value: Cube (7)
