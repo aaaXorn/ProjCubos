@@ -30,6 +30,9 @@ public class Menu : MonoBehaviour
 	//array com as resoluções
 	Resolution[] resolutions;
 	
+	//sfx botão
+	[SerializeField] AudioSource ASbtn;
+	
     void Start()
     {
 		//arruma quais níveis o jogador pode loadar
@@ -116,6 +119,8 @@ public class Menu : MonoBehaviour
 
     public void NewGame()
 	{
+		ASbtn.Play();
+		
 		SG.Save();
 		
 		//abre o primeiro nível
@@ -126,6 +131,8 @@ public class Menu : MonoBehaviour
 	
 	public void SelectStage()
 	{
+		ASbtn.Play();
+		
 		//desabilita o OptionsObj
 		if(OptionsObj.activeSelf)
 			OptionsObj.SetActive(false);
@@ -140,6 +147,8 @@ public class Menu : MonoBehaviour
 	
 	public void LoadStage(int stage)
 	{
+		ASbtn.Play();
+		
 		SG.Save();
 		
 		//abre o nível escolhido
@@ -152,6 +161,8 @@ public class Menu : MonoBehaviour
 	
 	public void Options()
 	{
+		ASbtn.Play();
+		
 		//desabilita o LoadObj
 		if(LoadObj.activeSelf)
 			LoadObj.SetActive(false);
@@ -230,6 +241,8 @@ public class Menu : MonoBehaviour
 	
 	public void Exit()
 	{
+		ASbtn.Play();
+		
 		SG.Save();
 		
 		//sai do jogo

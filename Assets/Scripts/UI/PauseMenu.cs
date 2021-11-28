@@ -21,6 +21,8 @@ public class PauseMenu : MonoBehaviour
 	[SerializeField]
 	float unpausedTimeScale = 1;//passagem do tempo fora do pause
 	
+	[SerializeField] AudioSource ASbtn;//SFX do botão
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -81,6 +83,8 @@ public class PauseMenu : MonoBehaviour
 	
 	public void Restart()
 	{
+		ASbtn.Play();
+		
 		SG.Save();
 		
 		//reinicia a scene atual
@@ -89,6 +93,8 @@ public class PauseMenu : MonoBehaviour
 	
 	public void Title()
 	{
+		ASbtn.Play();
+		
 		SG.Save();
 		
 		//vai pro main menu
