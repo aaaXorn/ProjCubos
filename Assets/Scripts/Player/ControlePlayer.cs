@@ -122,7 +122,7 @@ public class ControlePlayer : MonoBehaviour
 			{
 				jumpTimer += Time.deltaTime;
 				
-				if(jumpTimer >= 0.25f)
+				if(jumpTimer >= 0.15f)
 				{
 					jumpTimer = 0;
 					

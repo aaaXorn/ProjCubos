@@ -7,8 +7,9 @@ public class WaterPush : MonoBehaviour
 	//posição máxima relativa que um objeto pode boiar
 	[SerializeField]
 	float floatPos;
+	[SerializeField] bool applyingForce;//se força está sendo aplicada
 	
-	[Header("Force.y > 9.8 é mais forte que a gravidade padrão")]
+	[Header("Force.y < -9.81 é mais forte que a gravidade padrão")]
 	//força da água
 	[SerializeField]
 	Vector3 Force;
@@ -20,7 +21,12 @@ public class WaterPush : MonoBehaviour
 	//enquanto um objeto está dentro da água
 	void OnTriggerStay(Collider other)
 	{
-		WaterForce(other);
+		if(!applyingForce)
+		{
+			WaterForce(other);
+			
+			StartCoroutine("SetAF");
+		}
 	}
 	
 	void WaterForce(Collider obj)
@@ -30,10 +36,10 @@ public class WaterPush : MonoBehaviour
 		//aplicação da força da água
 		//if((obj.gameObject.transform.position.y - transform.position.y) < floatPos)
 		//{
-			if(otherRigid != null)
-			{
-				otherRigid.AddForce(Force);
-			}
+		if(otherRigid != null)
+		{
+			otherRigid.AddForce(Force);
+		}
 		//}
 		//else
 		//{
@@ -43,5 +49,16 @@ public class WaterPush : MonoBehaviour
 		//		otherRigid.AddForce(Force.x, Force.y/2, Force.z);
 		//	}
 		//}
+	}
+	
+	IEnumerator SetAF()
+	{
+		applyingForce = true;
+		
+		yield return new WaitForEndOfFrame();
+		
+		applyingForce = false;
+		
+		StopCoroutine("SetAF");
 	}
 }
