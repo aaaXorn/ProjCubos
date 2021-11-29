@@ -11986,7 +11986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ST: {fileID: 2091794511}
   SG: {fileID: 2091794510}
-  nextScene: MainMenu
+  nextScene: Stage 3
   currLvl: 2
 --- !u!65 &1332659499
 BoxCollider:
