@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: eb68e19763599ed4eaeb454dce65672f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7fc83cb1ddd404aaaf6bf0b58725c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BW: {fileID: 0}
   Piramide: {fileID: 4914010980622787835}
   speed: 0.01
   P_T: {fileID: 0}
@@ -190,6 +191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: daf51df1dba38d444a8b3a416828c6fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5a872997cddedc6419b004391f305a3d, type: 2}
     - target: {fileID: 919132149155446097, guid: daf51df1dba38d444a8b3a416828c6fa, type: 3}
       propertyPath: m_Name
       value: piramide

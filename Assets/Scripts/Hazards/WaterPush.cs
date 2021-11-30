@@ -5,11 +5,11 @@ using UnityEngine;
 public class WaterPush : MonoBehaviour
 {
 	//posição máxima relativa que um objeto pode boiar
-	[SerializeField]
-	float floatPos;
+	//[SerializeField]
+	//float floatPos;
 	[SerializeField] bool applyingForce;//se força está sendo aplicada
 	
-	[Header("Force.y < -9.81 é mais forte que a gravidade padrão")]
+	[Header("Force.y > 9.81 é mais forte que a gravidade padrão")]
 	//força da água
 	[SerializeField]
 	Vector3 Force;
@@ -21,7 +21,7 @@ public class WaterPush : MonoBehaviour
 	//enquanto um objeto está dentro da água
 	void OnTriggerStay(Collider other)
 	{
-		if(!applyingForce)
+		if(!applyingForce && other.gameObject.CompareTag("Player"))
 		{
 			WaterForce(other);
 			

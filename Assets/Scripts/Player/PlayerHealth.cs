@@ -30,6 +30,11 @@ public class PlayerHealth : MonoBehaviour
 	
 	void Awake()
 	{
+		if(SceneManager.GetActiveScene().name != SceneTransition.lastScene)
+		{
+			checkpoint = false;
+		}
+		
 		if(hasCheckpoint && checkpoint)
 		{
 			transform.position = CheckpointPos;

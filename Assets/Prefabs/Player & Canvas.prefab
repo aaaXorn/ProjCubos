@@ -204,8 +204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da234191490d5024f9982d6cc76617db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpd: 6
-  runSpd: 6
+  walkSpd: 6.2
+  runSpd: 6.2
   currSpd: 0
   jumpForce: 0
   maxJumpForce: 17500

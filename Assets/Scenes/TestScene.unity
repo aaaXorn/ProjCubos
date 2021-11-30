@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 444ca270f76d30044a93cf4c580f1562, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fd6d867e35670894ab6be643c3622066, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -431,7 +431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 083cbf4e153b98b4b87226aa94c649e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatPos: 4
   applyingForce: 0
   Force: {x: 2, y: 11, z: 0}
   otherRigid: {fileID: 0}
@@ -1225,7 +1224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &981756399
 ParticleSystemRenderer:
   serializedVersion: 6

@@ -14,6 +14,8 @@ public class SceneTransition : MonoBehaviour
 	
 	[SerializeField] float timer, color;//timer da transição
 	
+	public static string lastScene;
+	
     void Awake()
     {
 		//inicia o fade in
@@ -52,7 +54,11 @@ public class SceneTransition : MonoBehaviour
 		{
 			//no fade out, inicia a próxima cena
 			if(!fadeIn)
-					SceneManager.LoadScene(nextScene);
+			{
+				lastScene = SceneManager.GetActiveScene().name;
+				
+				SceneManager.LoadScene(nextScene);
+			}
 			else
 				//desabilita o FadeImg
 				if(FadeImg) FadeImg.enabled = false;

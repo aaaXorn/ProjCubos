@@ -23943,6 +23943,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.0000000027939677
+      objectReference: {fileID: 0}
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 2.910383e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.000000004656613
+      objectReference: {fileID: 0}
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.022561591
+      objectReference: {fileID: 0}
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.0018711162
+      objectReference: {fileID: 0}
+    - target: {fileID: 56031219603333033, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.022561599
+      objectReference: {fileID: 0}
     - target: {fileID: 897615618040925132, guid: 8e846811fe78014429506004d7639509, type: 3}
       propertyPath: hasCheckpoint
       value: 1
