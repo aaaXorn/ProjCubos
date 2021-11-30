@@ -191,6 +191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a05a4717bc05da94db43ceeb703a23f6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 11d218242029d264fa27370058ea52e8, type: 2}
     - target: {fileID: 919132149155446097, guid: a05a4717bc05da94db43ceeb703a23f6, type: 3}
       propertyPath: m_Name
       value: triand
@@ -758,6 +762,10 @@ PrefabInstance:
       propertyPath: GoToA.z
       value: -3
       objectReference: {fileID: 0}
+    - target: {fileID: 6452002392871078053, guid: f8d584121dd8f304fb060344330cb614, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d584121dd8f304fb060344330cb614, type: 3}
 --- !u!1001 &82647061
@@ -1653,6 +1661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!1001 &159759055
@@ -2699,6 +2711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o (7)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!4 &303989288 stripped
@@ -4044,6 +4060,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (7)
@@ -6393,7 +6413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824958727}
   m_LocalRotation: {x: 0.66340154, y: 0.24474177, z: -0.24474172, w: 0.6634014}
-  m_LocalPosition: {x: 1.157, y: 0.33919996, z: -0.25579992}
+  m_LocalPosition: {x: 1.164, y: 0.339, z: -0.262}
   m_LocalScale: {x: 1.0540003, y: 1.2240001, z: 0.23700002}
   m_Children: []
   m_Father: {fileID: 1337475900}
@@ -7417,6 +7437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o (6)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!1 &1029061632
@@ -7823,6 +7847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!4 &1076256572 stripped
@@ -7902,6 +7930,10 @@ PrefabInstance:
       propertyPath: GoToA.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6452002392871078053, guid: f8d584121dd8f304fb060344330cb614, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d584121dd8f304fb060344330cb614, type: 3}
 --- !u!4 &1094445030 stripped
@@ -8203,6 +8235,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (6)
@@ -9243,6 +9279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!1001 &1260542376
@@ -9410,6 +9450,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (9)
@@ -10122,6 +10166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!1001 &1348183113
@@ -11315,6 +11363,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (2)
@@ -11696,6 +11748,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (3)
@@ -12747,6 +12803,10 @@ PrefabInstance:
       propertyPath: GoToA.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6452002392871078053, guid: f8d584121dd8f304fb060344330cb614, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d584121dd8f304fb060344330cb614, type: 3}
 --- !u!1001 &1720818470
@@ -13128,6 +13188,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (5)
@@ -13353,6 +13417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Ch\xE3o (5)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8166133205589829347, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d98d5e938d68ef747b3500f7b08ecb07, type: 3}
 --- !u!1001 &1875859261
@@ -13428,6 +13496,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (8)
@@ -13592,6 +13664,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove
@@ -14833,6 +14909,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (4)
@@ -15088,6 +15168,10 @@ PrefabInstance:
       propertyPath: GoToA.y
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 600943193219830810, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5bda7a48403cea043ae5165f1a3363f0, type: 2}
     - target: {fileID: 2475048941921630044, guid: e02522164eff9ec43a17a3bd353a26b0, type: 3}
       propertyPath: m_Name
       value: PlatVertMove (1)
