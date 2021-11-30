@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 885e0e5191820a745aa262f6124c4af2, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -3216,7 +3216,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
+  - {fileID: 2100000, guid: 849fafa08a1543c458ddccc7175b0a7a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4170,7 +4170,7 @@ PrefabInstance:
     - target: {fileID: 8375937394666849425, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
+      objectReference: {fileID: 2100000, guid: 5780ea9b384a3ef43b844f27ef969e3a, type: 2}
     - target: {fileID: 8375937394666849427, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
       propertyPath: m_Name
       value: Cube (6)
@@ -10829,7 +10829,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1.1
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10838,7 +10838,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.58
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -12094,7 +12094,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
+  - {fileID: 2100000, guid: 849fafa08a1543c458ddccc7175b0a7a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13574,7 +13574,7 @@ PrefabInstance:
     - target: {fileID: 8375937394666849425, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0cab7acebbeb6ee42b7e291fe47c9834, type: 2}
+      objectReference: {fileID: 2100000, guid: 5780ea9b384a3ef43b844f27ef969e3a, type: 2}
     - target: {fileID: 8375937394666849427, guid: 472e0f51e1414584cb778086dd5f2384, type: 3}
       propertyPath: m_Name
       value: Cube (7)

@@ -600,7 +600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &96406366
 Light:
   m_ObjectHideFlags: 0
@@ -2537,7 +2537,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.25
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2546,7 +2546,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.25
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -9754,6 +9754,10 @@ LightProbeGroup:
   - {x: -84.01756, y: 31.177593, z: 31.105862}
   - {x: -83.66089, y: 31.177593, z: 33.515408}
   - {x: -81.461075, y: 31.177593, z: 33.83071}
+  - {x: -9.877755, y: -1, z: 39.674343}
+  - {x: -17.834755, y: 1.1944289, z: 41.746136}
+  - {x: -82.49776, y: 31.177593, z: 39.823055}
+  - {x: -77.24765, y: 33.00758, z: 33.8434}
   m_Dering: 1
 --- !u!1 &1507899205
 GameObject:
