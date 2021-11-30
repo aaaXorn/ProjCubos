@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpd: 6
-  runSpd: 8
+  runSpd: 6
   currSpd: 0
   jumpForce: 0
   maxJumpForce: 17500

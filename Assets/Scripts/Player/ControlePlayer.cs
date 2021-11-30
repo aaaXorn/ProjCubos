@@ -176,7 +176,17 @@ public class ControlePlayer : MonoBehaviour
 		//espera até o jogador soltar o botão de pulo
 		yield return new WaitUntil(() => !jumping);
 		
+		//bugfix pro tapjump gastar um pulo
+		int i = 0;
+		while(i < 3)
+		{
+			i++;
+			yield return null;
+		}
+		
 		currentJumps++;//adiciona um pulo feito
 		jumpStart = true;//pro if do pulo funcionar
+		
+		StopCoroutine("ApplyJump");
 	}
 }
