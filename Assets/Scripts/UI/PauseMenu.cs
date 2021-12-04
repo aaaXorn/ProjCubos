@@ -22,6 +22,8 @@ public class PauseMenu : MonoBehaviour
 	float unpausedTimeScale = 1;//passagem do tempo fora do pause
 	
 	[SerializeField] AudioSource ASbtn;//SFX do botão
+	[SerializeField] AudioSource ASpause;//musica pause
+	[SerializeField] AudioSource ASlevel;//musica level
 	
     // Start is called before the first frame update
     void Start()
@@ -65,12 +67,18 @@ public class PauseMenu : MonoBehaviour
 		
 		if(paused)
 		{
+			//música
+			ASlevel.Pause();
+			ASpause.Play();
 			//para o tempo
 			Time.timeScale = 0;
 			Cursor.visible = true;//faz o cursor aparecer
 		}
 		else
 		{
+			//música
+			ASpause.Stop();
+			ASlevel.Play();
 			//volta o tempo ao normal
 			Time.timeScale = unpausedTimeScale;
 			Cursor.visible = false;//faz o cursor desaparecer

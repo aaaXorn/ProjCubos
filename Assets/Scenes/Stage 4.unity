@@ -5494,6 +5494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player & Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6631240103585001590, guid: 8e846811fe78014429506004d7639509, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: da20a40398ed8404caed9e959160881a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e846811fe78014429506004d7639509, type: 3}
 --- !u!114 &674859841 stripped
@@ -16871,7 +16875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ST: {fileID: 674859843}
   SG: {fileID: 674859842}
-  nextScene: MainMenu
+  nextScene: Stage 5
   currLvl: 4
 --- !u!65 &2084742120
 BoxCollider:
