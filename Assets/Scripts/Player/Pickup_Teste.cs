@@ -119,6 +119,8 @@ public class Pickup_Teste : MonoBehaviour
 	
 	void TiraMochila()
 	{
+		AS_grab.Play();
+		
 		//animação
 		anim.SetTrigger("TiraMochila");
 		

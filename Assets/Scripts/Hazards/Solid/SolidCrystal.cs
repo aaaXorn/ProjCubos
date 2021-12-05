@@ -15,6 +15,8 @@ public class SolidCrystal : MonoBehaviour
 	GameObject Drop;//próximo drop
 	int nextToDrop;//espinho do array que vai cair em seguida
 
+	[SerializeField] AudioSource AS_Fall;
+
     // Update is called once per frame
     void Update()
     {
@@ -37,6 +39,13 @@ public class SolidCrystal : MonoBehaviour
 	//faz um espinho aleatório cair
 	void DropSpike()
 	{
+		if(!AS_Fall.isPlaying)
+		{
+			AS_Fall.Play();
+			
+			Invoke("StopAudio", 1.8f);
+		}
+		
 		//randomiza o próximo drop entre as opções do array
 		nextToDrop = Random.Range(0, Spikes.Count);
 		Drop = Spikes[nextToDrop];
@@ -45,5 +54,10 @@ public class SolidCrystal : MonoBehaviour
 		
 		//ativa a gravidade do drop
 		Drop.GetComponent<Rigidbody>().isKinematic = false;
+	}
+	
+	void StopAudio()
+	{
+		AS_Fall.Stop();
 	}
 }

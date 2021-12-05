@@ -14,6 +14,8 @@ public class BuracoActivate : MonoBehaviour
 	
 	public Pickup_Teste P_T;//script de pickup
 	
+	[SerializeField] AudioSource AS_Activation;
+	
 	void Start()
 	{
 		P_T = GameObject.FindWithTag("Player").GetComponent<Pickup_Teste>();
@@ -52,6 +54,8 @@ public class BuracoActivate : MonoBehaviour
 		//quando a piramide chega no alvo
 		if(distance <= speed)
 		{
+			AS_Activation.Play();
+			
 			Piramide.transform.position = transform.position;
 			
 			if(BW)
