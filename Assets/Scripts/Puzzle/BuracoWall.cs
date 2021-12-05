@@ -10,6 +10,8 @@ public class BuracoWall : MonoBehaviour
 	
 	[SerializeField] int buracoSolved, buracoTotal;
 	
+	[SerializeField] string coroutine;//corrotina ativada
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,7 @@ public class BuracoWall : MonoBehaviour
 	{
 		buracoSolved++;
 		if(buracoSolved >= buracoTotal)
-			StartCoroutine("MoveWall");
+			StartCoroutine(coroutine);
 	}
 
     IEnumerator MoveWall()

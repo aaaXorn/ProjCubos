@@ -2981,6 +2981,7 @@ MonoBehaviour:
   MoveTo: {x: 10, y: 0, z: 0}
   buracoSolved: 0
   buracoTotal: 1
+  coroutine: MoveWall
 --- !u!65 &325741888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15804,6 +15805,7 @@ MonoBehaviour:
   MoveTo: {x: 0, y: 0, z: 6}
   buracoSolved: 0
   buracoTotal: 1
+  coroutine: MoveWall
 --- !u!4 &1955829057
 Transform:
   m_ObjectHideFlags: 0

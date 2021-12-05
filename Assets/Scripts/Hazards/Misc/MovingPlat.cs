@@ -15,6 +15,8 @@ public class MovingPlat : MonoBehaviour
 	//se o objeto está indo pro lado A ou lado B
 	[SerializeField] bool pattern;
 	
+	[SerializeField] bool stop;//se é pra plataforma parar
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -26,33 +28,36 @@ public class MovingPlat : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-		if(pattern)
+		if(!stop)
 		{
-			//move o objeto pro A
-			transform.position = Vector3.MoveTowards(transform.position, 
-													 GoToA,
-													 speed);
-			
-			var distance = Vector3.Distance(GoToA, transform.position);
-			
-			//checa a distância
-			if(distance < speed)
-				//alterna o padrão
-				pattern = false;
-		}
-		else
-		{
-			//move o objeto pro B
-			transform.position = Vector3.MoveTowards(transform.position, 
-													 GoToB,
-													 speed);
-			
-			var distance = Vector3.Distance(GoToB, transform.position);
-			
-			//checa a distância
-			if(distance < speed)
-				//alterna o padrão
-				pattern = true;
+			if(pattern)
+			{
+				//move o objeto pro A
+				transform.position = Vector3.MoveTowards(transform.position, 
+														 GoToA,
+														 speed);
+				
+				var distance = Vector3.Distance(GoToA, transform.position);
+				
+				//checa a distância
+				if(distance < speed)
+					//alterna o padrão
+					pattern = false;
+			}
+			else
+			{
+				//move o objeto pro B
+				transform.position = Vector3.MoveTowards(transform.position, 
+														 GoToB,
+														 speed);
+				
+				var distance = Vector3.Distance(GoToB, transform.position);
+				
+				//checa a distância
+				if(distance < speed)
+					//alterna o padrão
+					pattern = true;
+			}
 		}
     }
 }
