@@ -12,6 +12,8 @@ public class BuracoWall : MonoBehaviour
 	
 	[SerializeField] string coroutine;//corrotina ativada
 	
+	[SerializeField] GameObject[] ChildObjs = new GameObject[0];
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -49,5 +51,29 @@ public class BuracoWall : MonoBehaviour
 			
 			StopCoroutine("MoveWall");
 		}
+	}
+	
+	IEnumerator SetActive()
+	{
+		for(int i = 0; i < ChildObjs.Length; i++)
+		{
+			ChildObjs[i].SetActive(true);
+		}
+		
+		StopCoroutine("SetActive");
+		
+		yield return null;
+	}
+	
+	IEnumerator Deactivate()
+	{
+		for(int i = 0; i < ChildObjs.Length; i++)
+		{
+			ChildObjs[i].SetActive(false);
+		}
+		
+		StopCoroutine("SetActive");
+		
+		yield return null;
 	}
 }

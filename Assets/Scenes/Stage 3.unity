@@ -3769,6 +3769,7 @@ MonoBehaviour:
   buracoSolved: 0
   buracoTotal: 2
   coroutine: MoveWall
+  ChildObjs: []
 --- !u!1001 &435141649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4847,7 +4848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8969603873505455565, guid: 85b087b1cfba6ff4a8de437ce3a90674, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 556.49
+      value: 556.615
       objectReference: {fileID: 0}
     - target: {fileID: 8969603873505455565, guid: 85b087b1cfba6ff4a8de437ce3a90674, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7241,7 +7242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8969603873505455565, guid: 85b087b1cfba6ff4a8de437ce3a90674, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 577.16
+      value: 577.385
       objectReference: {fileID: 0}
     - target: {fileID: 8969603873505455565, guid: 85b087b1cfba6ff4a8de437ce3a90674, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14944,6 +14945,7 @@ MonoBehaviour:
   buracoSolved: 0
   buracoTotal: 3
   coroutine: MoveWall
+  ChildObjs: []
 --- !u!4 &1776623100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1674025775563679802, guid: 97a21c19f455f7a4c847414bbcc14518, type: 3}

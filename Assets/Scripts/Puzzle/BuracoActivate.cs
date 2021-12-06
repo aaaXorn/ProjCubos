@@ -8,7 +8,7 @@ public class BuracoActivate : MonoBehaviour
 	
 	[SerializeField] GameObject Piramide;//child object de piramide
 	
-	bool start;//se o movimento começou
+	public bool start;//se o movimento começou
 	
 	[SerializeField] float speed;//velocidade do movimento
 	
