@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: fd6d867e35670894ab6be643c3622066, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5cefdca5cd105614a8a419634b4a75de, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -377,8 +377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1954df5065897da4f882bd9424a809b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: 0
-  exploding: 0
   timer: 0
   bombTimer: 2
   expRadius: 100
@@ -386,6 +384,7 @@ MonoBehaviour:
   SpEffect: {fileID: 0}
   expColliders: []
   otherRigid: {fileID: 0}
+  AS_Exp: {fileID: 0}
 --- !u!1 &539162546
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +541,7 @@ MonoBehaviour:
   - {fileID: 1880696783}
   - {fileID: 151278125}
   Drop: {fileID: 0}
+  AS_Fall: {fileID: 0}
 --- !u!4 &566956835
 Transform:
   m_ObjectHideFlags: 0
@@ -821,6 +821,7 @@ MonoBehaviour:
   GoToA: {x: 1, y: 0, z: 0}
   speed: 0.1
   pattern: 0
+  stop: 0
 --- !u!65 &728124092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6406,6 +6407,8 @@ MonoBehaviour:
   MoveTo: {x: 0, y: -4, z: 0}
   buracoSolved: 0
   buracoTotal: 1
+  coroutine: 
+  ChildObjs: []
 --- !u!65 &1112458074
 BoxCollider:
   m_ObjectHideFlags: 0
