@@ -20,7 +20,7 @@ public class Menu : MonoBehaviour
 	//objeto com as configurações, objeto com as opções de nível
 	[SerializeField] GameObject OptionsObj, LoadObj;
 	//botões de load
-	[SerializeField] GameObject BtLvl2, BtLvl3, BtLvl4;
+	[SerializeField] GameObject BtLvl2, BtLvl3, BtLvl4, BtLvl5;
 	
 	//objetos de UI das opções
 	[SerializeField] Dropdown graphicsDropdown, resDropdown, langDropdown;
@@ -42,6 +42,8 @@ public class Menu : MonoBehaviour
 			BtLvl3.SetActive(true);
 		if(SG.levelsUnlocked >= 3)
 			BtLvl4.SetActive(true);
+		if(SG.levelsUnlocked >= 4)
+			BtLvl5.SetActive(true);
 		
 		//coloca as resoluções no array
         resolutions = Screen.resolutions;

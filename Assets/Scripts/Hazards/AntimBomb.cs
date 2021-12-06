@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class AntimBomb : MonoBehaviour
 {
-	//se a explosão pode começar/já começou
-	[SerializeField]
-	bool start, exploding;
-	
 	//timer da explosão
 	[SerializeField]
 	float timer, bombTimer;
@@ -26,33 +22,13 @@ public class AntimBomb : MonoBehaviour
 	[SerializeField]
 	Rigidbody otherRigid;
 	
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(start)
-		{
-			//timer
-			timer += Time.deltaTime;
-			
-			if(timer >= bombTimer && !exploding)
-			{
-				Explosion();
-				exploding = true;
-			}
-		}
-    }
+	[SerializeField] AudioSource AS_Exp;//sound effect de explosão
 	
 	void OnCollisionEnter(Collision other)
 	{
 		if(other.gameObject.CompareTag("Player"))
 		{
-			start = true;
+			StartCoroutine("Timer");
 		}
 	}
 	
@@ -78,10 +54,26 @@ public class AntimBomb : MonoBehaviour
 			
 			if(nearObj.gameObject.CompareTag("Player"))
 			{
-				//damage
+				nearObj.gameObject.GetComponent<PlayerHealth>().ChangeHP(2, transform.position);
 			}
 		}
 		
 		Destroy(gameObject);
+	}
+	
+	IEnumerator Timer()
+	{
+		AS_Exp.Play();
+		
+		//enquanto o timer estiver rodando
+		while(timer < bombTimer)
+		{
+			timer += Time.deltaTime;
+			yield return null;
+		}
+		
+		Explosion();
+		
+		StopCoroutine("Timer");
 	}
 }
