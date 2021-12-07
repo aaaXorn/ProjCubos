@@ -8,7 +8,9 @@ public class PauseLanguage : MonoBehaviour
     [SerializeField] SaveGame SG;
 	
 	//texto das opções do menu
-	[SerializeField] Text txtResume, txtRestart, txtTitle;
+	//[SerializeField] Text txtResume, txtRestart, txtTitle;
+	//objetos das imagens das opções do menu
+	[SerializeField] GameObject RsuEN, RsuPT, RstEN, RstPT, MMEN, MMPT;
 	
 	void Start()
 	{
@@ -33,9 +35,15 @@ public class PauseLanguage : MonoBehaviour
 	
 	void En()
 	{
-		txtResume.text = "Resume";
+		/*txtResume.text = "Resume";
 		txtRestart.text = "Restart";
-		txtTitle.text = "Main Menu";
+		txtTitle.text = "Main Menu";*/
+		RsuEN.SetActive(true);
+		RstEN.SetActive(true);
+		MMEN.SetActive(true);
+		RsuPT.SetActive(false);
+		RstPT.SetActive(false);
+		MMEN.SetActive(false);
 	}
 	
 	#endregion
@@ -44,9 +52,15 @@ public class PauseLanguage : MonoBehaviour
 	
 	void Pt()
 	{
-		txtResume.text = "Continuar";
+		/*txtResume.text = "Continuar";
 		txtRestart.text = "Recomeçar";
-		txtTitle.text = "Menu Inicial";
+		txtTitle.text = "Menu Inicial";*/
+		RsuPT.SetActive(true);
+		RstPT.SetActive(true);
+		MMPT.SetActive(true);
+		RsuEN.SetActive(false);
+		RstEN.SetActive(false);
+		MMEN.SetActive(false);
 	}
 	
 	#endregion

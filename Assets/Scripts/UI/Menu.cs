@@ -17,8 +17,8 @@ public class Menu : MonoBehaviour
 	//mixer de audio
 	[SerializeField] AudioMixer audioM;
 	
-	//objeto com as configurações, objeto com as opções de nível
-	[SerializeField] GameObject OptionsObj, LoadObj;
+	//objeto com as configurações, objeto com as opções de nível, objeto com os créditos
+	[SerializeField] GameObject OptionsObj, LoadObj, CreditsObj;
 	//botões de load
 	[SerializeField] GameObject BtLvl2, BtLvl3, BtLvl4, BtLvl5;
 	
@@ -143,6 +143,10 @@ public class Menu : MonoBehaviour
 		if(OptionsObj.activeSelf)
 			OptionsObj.SetActive(false);
 		
+		//desabilita os créditos
+		if(CreditsObj.activeSelf)
+			CreditsObj.SetActive(false);
+		
 		//abre/fecha as opções de load
 		LoadObj.SetActive(!LoadObj.activeSelf);
 		
@@ -172,6 +176,10 @@ public class Menu : MonoBehaviour
 		//desabilita o LoadObj
 		if(LoadObj.activeSelf)
 			LoadObj.SetActive(false);
+		
+		//desabilita os créditos
+		if(CreditsObj.activeSelf)
+			CreditsObj.SetActive(false);
 		
 		//abre/fecha as configurações
 		OptionsObj.SetActive(!OptionsObj.activeSelf);
@@ -253,5 +261,21 @@ public class Menu : MonoBehaviour
 		
 		//sai do jogo
 		Application.Quit();
+	}
+	
+	public void Credits()
+	{
+		ASbtn.Play();
+		
+		//desabilita o OptionsObj
+		if(OptionsObj.activeSelf)
+			OptionsObj.SetActive(false);
+		
+		//desabilita o LoadObj
+		if(LoadObj.activeSelf)
+			LoadObj.SetActive(false);
+		
+		//abre/fecha os créditos
+		CreditsObj.SetActive(!CreditsObj.activeSelf);
 	}
 }
