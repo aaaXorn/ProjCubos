@@ -114,7 +114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BW: {fileID: 0}
   Piramide: {fileID: 4914010980622787835}
-  speed: 0.01
+  start: 0
+  speed: 0.025
   P_T: {fileID: 0}
   AS_Activation: {fileID: 9165130356889477536}
 --- !u!82 &9165130356889477536
@@ -129,7 +130,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 76f9026bf0e339d479cd5ef53a71fb18, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0

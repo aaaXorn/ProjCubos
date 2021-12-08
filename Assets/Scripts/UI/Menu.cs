@@ -35,6 +35,8 @@ public class Menu : MonoBehaviour
 	
     void Start()
     {
+		Cursor.visible = true;//ativa o cursor
+		
 		//arruma quais níveis o jogador pode loadar
 		if(SG.levelsUnlocked >= 1)
 			BtLvl2.SetActive(true);

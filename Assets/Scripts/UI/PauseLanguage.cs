@@ -43,7 +43,7 @@ public class PauseLanguage : MonoBehaviour
 		MMEN.SetActive(true);
 		RsuPT.SetActive(false);
 		RstPT.SetActive(false);
-		MMEN.SetActive(false);
+		MMPT.SetActive(false);
 	}
 	
 	#endregion
